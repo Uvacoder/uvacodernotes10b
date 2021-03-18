@@ -1,6 +1,7 @@
 ---
 id: linux
 title: Linux
+slug: /
 ---
 
 ## Some useful commands

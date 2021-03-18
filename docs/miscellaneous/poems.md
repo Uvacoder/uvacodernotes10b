@@ -16,8 +16,8 @@ title: Poems
 
 ## Charles Bukowski
 
-- [I Met A Genius]()
-- [So, You Want To Be A Writer]()
+- [I Met A Genius](#)
+- [So, You Want To Be A Writer](#)
 - [8 count](https://www.poetryfoundation.org/poems/49699/8-count)
 
 ## Rudyard Kipling

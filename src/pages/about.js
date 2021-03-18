@@ -25,7 +25,7 @@ function About() {
           </p>
           <i>
             This site was created using [
-            <a href='https://v2.docusaurus.io/'>Docusaurus v2.0.0-alpha.564</a>
+            <a href='https://v2.docusaurus.io/'>Docusaurus v2</a>
             ]. <br />
             Search powered by [
             <a href='https://github.com/algolia/docsearch/'>

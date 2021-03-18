@@ -1,9 +1,10 @@
 module.exports = {
-  title: '[ rsapkf / notes ]',
+  title: '[rsapkf/notes]',
+  titleDelimiter: '::',
   tagline: '"I\'m writing this down. This is good stuff." - George McFly',
   // url: 'https://rsapkf.github.io',
+  // baseUrl: '/notes/',
   url: 'https://rsapkf-notes.netlify.app',
-  // baseUrl: '/notes/'
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'rsapkf',
@@ -11,12 +12,12 @@ module.exports = {
   themeConfig: {
     // sidebarCollapsible: false,
     navbar: {
-      title: '[ rsapkf / notes ]',
+      title: '[rsapkf/notes]',
       logo: {
         alt: 'notes logo',
         src: 'img/undraw_Notebook.svg',
       },
-      links: [
+      items: [
         {
           to: 'docs/',
           activeBasePath: 'docs',
@@ -56,7 +57,7 @@ module.exports = {
           items: [
             {
               label: 'Linux',
-              to: 'docs/linux/linux/',
+              to: 'docs/',
             },
             {
               label: 'Vim',
@@ -73,7 +74,7 @@ module.exports = {
           items: [
             {
               label: 'Linux',
-              to: 'docs/linux/linux/',
+              to: 'docs/',
             },
             {
               label: 'Programming',
@@ -86,7 +87,7 @@ module.exports = {
           ],
         },
         {
-          title: '',
+          title: 'Etc.',
           items: [
             {
               label: 'View All Notes',
@@ -115,8 +116,6 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'linux/linux',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/rsapkf/notes/blob/master/',
         },

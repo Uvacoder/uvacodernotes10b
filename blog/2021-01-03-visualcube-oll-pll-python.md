@@ -1,5 +1,5 @@
 ---
-id: oll-pll-visualizations-visualcube
+slug: oll-pll-visualizations-visualcube
 title: Making OLL and PLL visualizations using VisualCube and Python
 tags: [cfop, cubing, python]
 ---
