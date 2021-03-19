@@ -72,7 +72,6 @@ import urllib.request
 oll_url = 'http://cube.rider.biz/visualcube.php?fmt=svg&pzl=3&view=plan&stage=oll&case='
 pll_url = 'http://cube.rider.biz/visualcube.php?fmt=svg&pzl=3&view=plan&case='
 
-
 plls = {
     "Aa": "R'FR'B2RF'R'B2R2",
     "Ab": "l'R'D2RUR'D2RU'Rx'",
@@ -96,7 +95,6 @@ plls = {
     "Y": "FRU'R'U'RUR'F'RUR'U'R'FRF'",
     "Z": "M2UM2UM'U2M2U2M'",
 }
-
 
 olls = {
     "1": "RU2R2'FRF'U2R'FRF'",
@@ -158,7 +156,6 @@ olls = {
     "57": "RUR'U'rR'URU'r'",
 }
 
-
 os.makedirs('oll/svg', exist_ok=True)
 os.makedirs('pll/svg', exist_ok=True)
 
@@ -187,7 +184,6 @@ import urllib.request
 
 pll_arrows_url = 'http://cube.rider.biz/visualcube.php?fmt=svg&pzl=3&view=plan&ac=black&case='
 
-
 plls = {
     "Aa": "R'FR'B2RF'R'B2R2&arw=U0U2-s8,U2U8-s8,U8U0-s8",
     "Ab": "l'R'D2RUR'D2RU'Rx'&arw=U8U2-s8,U0U8-s8,U2U0-s8",
@@ -212,9 +208,7 @@ plls = {
     "Z": "M2UM2UM'U2M2U2M'&arw=U1U3,U3U1,U5U7,U7U5",
 }
 
-
 os.makedirs('pll-arrows/svg', exist_ok=True)
-
 
 for case, alg in plls.items():
     urllib.request.urlretrieve(
