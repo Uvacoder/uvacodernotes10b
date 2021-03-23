@@ -8,6 +8,7 @@ title: git
 - `git log --oneline` - displays single commit information per line.
 - `git rev-list HEAD --count` - total number of commits.
   - `git shortlog` - Summarize 'git log' output.
+- `git commit --amend -m "New commit message"` - Edit the last commit message.
 
 ## Miscellaneous
 
