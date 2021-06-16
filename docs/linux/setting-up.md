@@ -14,7 +14,7 @@ title: Setting up a New Machine
    - EmacsWiki Page: https://www.emacswiki.org/emacs/MovingTheCtrlKey
    - WikiWikiWeb: http://wiki.c2.com/?RemapCapsLock
  
-- Pull up my [dotfiles](https://github.com/rsapkf/dotfiles/) and install necessary prgrams: (run the install script(@TODO))
+- Pull up my [dotfiles](https://github.com/rsapkf/dotfiles/) and install necessary programs: (run the install script(@TODO))
 
     - Install Programming Environments:
       - Python (Latest)
@@ -24,7 +24,7 @@ title: Setting up a New Machine
 
     - Install Programs:
       - Text Editors:
-        - `Vim/Neovim, Emacs(Orgmode, Evil), VSCode, Gedit, Sublime Text`
+        - `Vim/Neovim, Emacs(Orgmode, Evil), VSCode, Gedit`
       
       - IDEs:
         - `Pycharm, IntellijIDEA, Android Studio`

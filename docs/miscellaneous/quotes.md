@@ -31,7 +31,7 @@ title: Quotes
 
 > _All of humanity's problems stem from man's inability to sit quietly in a room alone._
 
-> _If I had more time, I would have written a shorter letter._[\*](https://knowyourmeme.com/memes/if-i-had-more-time-i-would-have-written-a-shorter-letter)
+> _If I had more time, I would have written a shorter letter._ [[\*](https://knowyourmeme.com/memes/if-i-had-more-time-i-would-have-written-a-shorter-letter)]
 
 ---
 
@@ -63,6 +63,10 @@ title: Quotes
 > _The needs of the many outweigh the needs of the few. Or the one._
 
 > _Live Long and Prosper._ 🖖
+
+#### Jean-Luc Picard
+
+> _It is possible to commit no mistakes and still lose. That is not weakness, that is life._
 
 ### Sherlock Holmes
 
@@ -137,3 +141,7 @@ title: Quotes
 - In [LET'S PLAY SUPER MARIO QUADRATICS - D!NG](https://youtu.be/ewAHYVzMobw?t=785)
 
 > _I'm gonna do what's called a pro gamer move._
+
+### TheReportOfTheWeek
+
+> _My disappointment is immeasurable, and my day is ruined._ [[\*](https://youtu.be/5d5NJgO38AE?t=366)]

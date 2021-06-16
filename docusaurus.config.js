@@ -10,7 +10,9 @@ module.exports = {
   organizationName: 'rsapkf',
   projectName: 'notes',
   themeConfig: {
-    // sidebarCollapsible: false,
+    colorMode: {
+      defaultMode: 'dark',
+    },
     navbar: {
       title: '[rsapkf/notes]',
       logo: {
@@ -37,9 +39,26 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://rsapkf.xyz/',
-          label: 'rsapkf.xyz',
+          label: 'Links',
           position: 'right',
+          items: [
+            {
+              label: 'Homepage ➚',
+              href: 'https://rsapkf.xyz/',
+            },
+            {
+              label: 'Linkroll ➚',
+              href: 'https://links.rsapkf.xyz/',
+            },
+            {
+              label: 'Dotfiles ➚',
+              href: 'https://github.com/rsapkf/dotfiles/',
+            },
+            {
+              label: 'CFOP Algs ➚',
+              href: 'https://github.com/rsapkf/rupiks/',
+            },
+          ],
         },
       ],
     },

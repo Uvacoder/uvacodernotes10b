@@ -5,54 +5,65 @@ title: Websites
 
 ## Onion links to popular services:
 
-- Keybase: `http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion/`
-- Invidious: `http://kgg2m7yk5aybusll.onion/` / `http://axqzx4s6s54s32yentfqojs3x5i7faxza6xo3ehd4bzzsg2ii4fv2iid.onion/`
-- ProtonMail: `https://protonirockerxow.onion/`
-- DuckDuckGo: `https://3g2upl4pq6kufc4m.onion/`
-- Searx: `http://searxspbitokayvkhzhsnljde7rqmn7rvoga6e4waeub3h7ug3nghoad.onion/`
-- BBC: `https://www.bbcnewsv2vjtpsuy.onion/`
-- The New York Times: `https://www.nytimes3xbfgragh.onion/`
-- Facebook: `https://facebookcorewwwi.onion/`
+- [Keybase](http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion/)
+- [Invidious](http://kgg2m7yk5aybusll.onion/) / [Invidious Alt](http://axqzx4s6s54s32yentfqojs3x5i7faxza6xo3ehd4bzzsg2ii4fv2iid.onion/)
+- [ProtonMail](https://protonirockerxow.onion/)
+- [DuckDuckGo](https://3g2upl4pq6kufc4m.onion/)
+- [Searx](http://searxspbitokayvkhzhsnljde7rqmn7rvoga6e4waeub3h7ug3nghoad.onion/)
+- [BBC](https://www.bbcnewsv2vjtpsuy.onion/)
+- [The New York Times](https://www.nytimes3xbfgragh.onion/)
+- [Facebook](https://facebookcorewwwi.onion/)
 
 ## Hacker News
 
 - See all posts from a specific domain:
 
-  `https://news.ycombinator.com/from?site=[domain]`
-
-  `https://news.ycombinator.com/from?site=stratechery.com`
+  ```
+  https://news.ycombinator.com/from?site=[domain]
+  https://news.ycombinator.com/from?site=stratechery.com
+  ```
 
 ## Reddit
 
 - View posts from multiple subreddits:
 
-  `https://reddit.com/r/technology+wtf/`
+  ```
+  https://reddit.com/r/technology+wtf/
+  ```
 
 - Alternative to `reddit.com/r/pics`:
 
-  `pics.reddit.com`
+  ```
+  pics.reddit.com
+  ```
 
 - Append `.json` at the end of a reddit url to get a JSON response:
 
-  `https://reddit.com/r/pics.json`
+  ```
+  https://reddit.com/r/pics.json
+  ```
 
 - See all posts within a given domain:
 
-  `https://reddit.com/domain/[domain]`
-
-  `https://www.reddit.com/domain/news.ycombinator.com`
+  ```
+  https://reddit.com/domain/[domain]
+  https://www.reddit.com/domain/news.ycombinator.com
+  ```
 
 - Create a new community:
 
-  `https://www.reddit.com/subreddits/create`
+  ```
+  https://www.reddit.com/subreddits/create
+  ```
 
 ## Medium
 
 - RSS Feed for Medium:
 
-  `https://medium.com/feed/@Medium`
-
-  `https://help.medium.com/hc/en-us/articles/214874118-RSS-feeds`
+  ```
+  https://medium.com/feed/@Medium
+  https://help.medium.com/hc/en-us/articles/214874118-RSS-feeds
+  ```
 
 ## DuckDuckGo
 

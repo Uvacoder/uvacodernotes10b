@@ -32,6 +32,7 @@ title: Browser
   - `browser.tabs.closeWindowWithLastTab` - true -> false
   - `browser.privatebrowsing.autostart` - false -> true
   - `geo.enabled` - true -> false
+  - `extensions.pocket.enabled` - true -> false
 
   - Other interesting settings:
     - `browser.urlbar.openintab`

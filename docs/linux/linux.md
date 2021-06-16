@@ -7,36 +7,121 @@ slug: /
 ## Some useful commands
 
 - Free memory (2.2G/7.6G)<br />
-  `free -h | awk '/^Mem:/ {print $3 "/" $2}'`
+
+  ```
+  free -h | awk '/^Mem:/ {print $3 "/" $2}'
+  ```
 
 - Top 10 most memory intensive processes<br />
-  `ps axch -o cmd:15,%mem --sort=-%mem | head`
+
+  ```
+  ps axch -o cmd:15,%mem --sort=-%mem | head
+  ```
 
 - Top 10 most CPU intensive processes<br />
-  `ps axch -o cmd:15,%cpu --sort=-%cpu | head`
+
+  ```
+  ps axch -o cmd:15,%cpu --sort=-%cpu | head
+  ```
 
 - Does your Terminal Emulator support _Italics_?<br />
-  `echo -e "\e[3m foo \e[23m"`
+
+  ```
+  echo -e "\e[3m foo \e[23m"
+  ```
 
 - `dd` command usage to burn an iso to a flash drive<br />
-  `dd if=Downloads/archlinux-x86_64.iso of=/dev/sdb status=progress`
+
+  ```
+  dd if=Downloads/archlinux-x86_64.iso of=/dev/sdb status=progress
+  ```
 
 - Display the SSID of connected network<br />
-  `nmcli -t -f active,ssid dev wifi | egrep '^yes' | cut -d\' -f2`
+
+  ```
+  nmcli -t -f active,ssid dev wifi | egrep '^yes' | cut -d\' -f2
+  ```
 
 - Colormap in terminal<br />
-  `msgcat --color=test`
+
+  ```
+  msgcat --color=test
+  ```
 
 - Set a random wallpaper from r/earthporn<br />
-  `wget -O - -q reddit.com/r/earthporn.json | jq '.data.children[] |.data.url' | head -1 | xargs feh --bg-fill`
+
+  ```
+  wget -O - -q reddit.com/r/earthporn.json | jq '.data.children[] |.data.url' | head -1 | xargs feh --bg-fill
+  ```
 
 - Browse memes from r/memes<br />
-  `wget -O - -q reddit.com/r/memes.json | jq '.data.children[] |.data.url' | xargs feh`
+
+  ```
+  wget -O - -q reddit.com/r/memes.json | jq '.data.children[] |.data.url' | xargs feh
+  ```
 
 - Runs `command1` 1 out of 10 times<br />
-  `[ $[$RANDOM % 10] = 0 ] && command1 || command2`<br />
-  `[ $[$RANDOM % 10] = 0 ] && timeout 5 command1 || command2`<br />
-  `[ $[$RANDOM % 10] = 0 ] && cmatrix || clear`
+
+  ```
+  [ $[$RANDOM % 10] = 0 ] && command1 || command2
+  [ $[$RANDOM % 10] = 0 ] && timeout 5 command1 || command2
+  [ $[$RANDOM % 10] = 0 ] && cmatrix || clear
+  ```
+
+- Find and replace all occurences of a string/pattern in text files in a directory recursively [[\*](https://stackoverflow.com/a/1585189)]
+
+  ```
+  find /home/<username>/ -type f | xargs sed -i  's/<old>/<new>/g'
+  ```
+
+## Change username and usergroup
+
+[[\*](https://askubuntu.com/a/317008)]
+
+1. Drop into a tty (`Ctrl + Alt + F3`).
+2. Login with username and password.
+3. Set a password for root account:
+
+```
+sudo passwd root
+```
+
+4. Log out
+
+```
+exit
+```
+
+5. Login with root account.
+6. Change the username and home folder:
+
+```
+usermod -l <new_username> -d /home/<new_username> -m <old_username>
+```
+
+7. Change the group name:
+
+```
+groupmod -n <new_group> <old_group>
+```
+
+8. Lock the root account.
+9. Log out.
+10. Exit tty.
+
+## Connect to wifi network with `nmcli`
+
+Show available access points:
+
+```
+nmcli dev wifi
+```
+
+Connect:
+
+```
+nmcli dev wifi connect <access_point> password <password>
+```
 
 ## Connect to a hidden wifi network using `nmcli`
 

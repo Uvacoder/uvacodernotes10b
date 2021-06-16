@@ -2,3 +2,9 @@
   base = "/"
   command = "npm run build"
   publish = "build"
+
+[[redirects]]
+  from = "https://rsapkf-notes.netlify.app/*"
+  to = "https://notes.rsapkf.xyz/:splat"
+  status = 301
+  force = true

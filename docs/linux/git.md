@@ -29,9 +29,17 @@ title: git
 - Amend older or multiple commit messages
 
   - `git rebase -i HEAD~n` - display a list of the last n commits in the default text editor.
-  - Replace pick with reword before each commit message you want to change, save and close the commit list file.
+  - Replace `pick` with `reword` before each commit message you want to change, save and close the commit list file.
   - In each resulting commit file, type the new commit message, save the file, and close it.
   - `git push --force` - force-push the amended commits.
+
+- Amend the very first commit message [[\*](https://stackoverflow.com/a/14630424)]
+
+  - `git rebase -i --root`
+
+- Squash all previous commits into one [[\*](https://stackoverflow.com/a/23486788)]
+
+  `git reset $(git commit-tree HEAD^{tree} -m "A new start")`
 
 - Print a leaderboard of authors based on number of commits in a git repo
 
