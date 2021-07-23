@@ -1,6 +1,6 @@
 ---
 id: setting-up
-title: Setting up a New Machine
+title: Setting up a new machine
 ---
 
 ## Some things I like to do when setting up a new Linux machine.

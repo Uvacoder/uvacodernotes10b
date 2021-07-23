@@ -142,7 +142,7 @@ sudo ifconfig wlan0 up
 sudo service network-manager start
 ```
 
-## Desktop Entry Template
+## Desktop entry template
 
 - [ArchWiki Page](https://wiki.archlinux.org/index.php/Desktop_entries)
 - [freedesktop.org Specification](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#recognized-keys)
@@ -160,12 +160,13 @@ Categories=Application;
 Comment=pCloud Cloud Storage
 ```
 
-## Useful Programs
+## Useful programs
 
 - `man [program]` - view man pages for programs.
 - `apropos` - search the manual page names and descriptions.
 - `[program] --help/-h`
 - `cat`
+- `tac`
 - `tr` - translate or delete characters.
 - `cut` - remove sections from each line of files.
   - `cut -d, -f 2,3 ratings.csv` - output only the 2nd and 3rd columns from ratings.csv file.
@@ -217,7 +218,7 @@ Comment=pCloud Cloud Storage
 - `find` - search for files in a directory hierarchy.
 - `file` - determine file type.
 
-### System Monitoring
+### System monitoring
 
 - `ps` - report a snapshot of the current processes.
   - `ps aux | grep nginx` - search for 'nginx' in ps output.
@@ -230,7 +231,7 @@ Comment=pCloud Cloud Storage
   - (upower -i \`upower -e | grep 'BAT'\`) - battery information.
 - `pidof [program]` - find the process ID of a running program.
 
-### System Info
+### System info
 
 - `lsb_release -a` - print distribution-specific information.
 - `cat /etc/*release`

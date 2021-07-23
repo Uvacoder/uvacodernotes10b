@@ -37,7 +37,7 @@ title: Browser
   - Other interesting settings:
     - `browser.urlbar.openintab`
 
-## Useful Shortcuts
+## Useful shortcuts
 
 Shortcuts:
 https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly

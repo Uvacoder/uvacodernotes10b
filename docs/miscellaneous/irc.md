@@ -3,7 +3,8 @@ id: irc
 title: IRC
 ---
 
-## IRC Commands
+## IRC commands
+
 - Register your nick:
 
   `/msg NickServ REGISTER YourPassword youremail@example.com`
@@ -18,7 +19,9 @@ title: IRC
 
   `/msg NickServ SET PASSWORD newpasswordhere`
 
-## IRC Channels
+## IRC channels
+
+- Libera.Chat: `#lobsters`
 - Freenode: `#python`, `##linux`, `#vim`
 - IRCHighway: `#ebooks`
 - Undernet: `#books`

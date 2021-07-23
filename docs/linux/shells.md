@@ -8,7 +8,7 @@ title: Shells
 - `<Ctrl-r>` - reverse-i-search.
 - `set -o vi` - enable vi mode in Bash.
 
-- Bash Scripting Tip:
+- Bash scripting tip:
 
 ```
 ➜  ~ var="apple orange"

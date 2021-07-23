@@ -3,7 +3,7 @@ id: vim
 title: Vim / Neovim
 ---
 
-## Enable _Italics_ in Vim
+## Enable _italics_ in Vim
 
 - add `highlight Comment cterm=italic` to .vimrc (**after the colorscheme declaration**).
 

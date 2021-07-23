@@ -3,4 +3,4 @@ id: mathematics
 title: Mathematics
 ---
 
-Mathematics Notes.
+Mathematics notes.

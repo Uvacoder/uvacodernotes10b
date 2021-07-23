@@ -1,6 +1,6 @@
 ---
 id: text-editors-and-ides
-title: Text Editors and IDEs
+title: Text editors and IDEs
 ---
 
 ## VSCode

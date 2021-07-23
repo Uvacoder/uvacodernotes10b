@@ -1,6 +1,6 @@
 ---
 id: window-managers
-title: Window Managers
+title: Window managers
 ---
 
 

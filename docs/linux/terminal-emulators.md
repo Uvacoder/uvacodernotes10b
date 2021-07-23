@@ -1,9 +1,9 @@
 ---
 id: terminal-emulators
-title: Terminal Emulators
+title: Terminal emulators
 ---
 
-## rxvt-unicode(urxvt)
+## rxvt-unicode (urxvt)
 
 ## Alacritty
 

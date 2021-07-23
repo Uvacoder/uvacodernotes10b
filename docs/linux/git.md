@@ -3,7 +3,7 @@ id: git
 title: git
 ---
 
-## Useful Flags
+## Useful flags
 
 - `git log --oneline` - displays single commit information per line.
 - `git rev-list HEAD --count` - total number of commits.

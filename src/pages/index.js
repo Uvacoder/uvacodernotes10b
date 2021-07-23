@@ -70,7 +70,7 @@ function Home() {
               )}
               to={useBaseUrl('docs/')}
             >
-              View Notes
+              View notes
             </Link>
             &nbsp;&nbsp;
             <a

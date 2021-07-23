@@ -41,7 +41,7 @@ import sys
 print(sys.version)
 ```
 
-- Get Unix Timestamp
+- Get Unix timestamp
 
 ```
 >>> import time

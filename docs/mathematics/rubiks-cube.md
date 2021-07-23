@@ -3,7 +3,7 @@ id: rubiks-cube
 title: Rubik's Cube
 ---
 
-## Speedcubing Methods
+## Speedcubing methods
 
 ### 2x2x2
 
@@ -18,7 +18,7 @@ title: Rubik's Cube
 - [ZZ](https://www.speedsolving.com/wiki/index.php/ZZ_method) - Zbigniew Zborowski
 - [Petrus](https://www.speedsolving.com/wiki/index.php/Petrus_Method) - Lars Petrus
 
-### NxNxN (Big Cubes)
+### NxNxN (Big cubes)
 
 - [Reduction / Redux](https://www.speedsolving.com/wiki/index.php/Reduction_Method)
 - [Yau / Yau5](https://www.speedsolving.com/wiki/index.php/Yau_method) - Robert Yau
@@ -109,20 +109,20 @@ title: Rubik's Cube
 
 ## 7x7x7
 
-### Edge Flipping Algorithm
+### Edge flipping algorithm
 
 `R U R' F R' F' R` / `(R' F R F') R U' R'`
 
-### Parity on Last Edge
+### Parity on last edge
 
 `R2 B2 U2 L U2 R' U2 R U2 F2 R F2 L' B2 R2`
 
-### Edge Swap Algorithm
+### Edge swap algorithm
 
 `R U2 R U2 F2 R F2 L' U2 L U2 R2`
 
 ## Miscellaneous
 
-### Speffz Lettering Scheme
+### Speffz lettering scheme
 
 [![Speffz Lettering Scheme](https://www.speedsolving.com/wiki/images/4/49/Speffz.png)](https://www.speedsolving.com/wiki/index.php/Speffz)

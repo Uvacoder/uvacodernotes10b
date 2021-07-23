@@ -35,7 +35,7 @@ title: Quotes
 
 ---
 
-## Novels, Books, Movies, TV-Series
+## Novels, books, movies, TV shows
 
 ### [Pale Blue Dot](https://en.wikipedia.org/wiki/Pale_Blue_Dot)
 
@@ -104,11 +104,21 @@ title: Quotes
 
 > _We've been tricked, we've been backstabbed and we've been quite possibly, bamboozled._
 
+### The IT Crowd
+
+#### Maurice Moss
+
+> _I came here to drink milk and kick ass. And I've just finished my milk._
+
 ## Science
 
 ### Carl Sagan
 
 > _Somewhere, something incredible is waiting to be known._
+
+### Isaac Asimov
+
+> _People who think they know everything are a great annoyance to those of us who do._
 
 ---
 

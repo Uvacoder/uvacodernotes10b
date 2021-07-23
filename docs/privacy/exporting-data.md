@@ -1,6 +1,6 @@
 ---
 id: exporting-data
-title: Exporting Data
+title: Exporting data
 ---
 
 ## IMDb
@@ -22,6 +22,10 @@ title: Exporting Data
   - Go to [reddit.com/subreddits](https://reddit.com/subreddits) or [reddit.com/subreddits/mine](https://reddit.com/subreddits/mine).
   - Click on `multireddit of your subscriptions`.
   - Save the link.
+
+## Spotify
+
+- [Exportify](https://watsonbox.github.io/exportify/)
 
 ## Pocket
 

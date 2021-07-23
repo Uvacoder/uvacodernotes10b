@@ -3,14 +3,14 @@ id: mnemonics
 title: Mnemonics
 ---
 
-## Morse Code
+## Morse code
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Morse_code_mnemonics#English)
 - [Vsauce](https://www.youtube.com/watch?v=HY_OIwideLg)
 
 ### Alphabets
 
-| Alphabet | Mnemonic            | Morse Code |
+| Alphabet | Mnemonic            | Morse code |
 | -------- | ------------------- | ---------- |
 | A        | aPART               | • -        |
 | B        | BOOT to the head    | - • • •    |
@@ -41,7 +41,7 @@ title: Mnemonics
 
 ### Numerals
 
-| Numeral | Morse Code |
+| Numeral | Morse code |
 | ------- | ---------- |
 | 1       | • - - - -  |
 | 2       | • • - - -  |
@@ -56,7 +56,7 @@ title: Mnemonics
 
 ### Characters
 
-| Character | Syllabic Mnemonic          | Morse Code  |
+| Character | Syllabic mnemonic          | Morse code  |
 | --------- | -------------------------- | ----------- |
 | .         | a STOP a STOP a STOP       | • - • - • - |
 | ,         | COM-MA, it's a COM-MA      | - - • • - - |
@@ -67,11 +67,11 @@ title: Mnemonics
 | '         | and THIS STUFF GOES TO me! | • - - - - • |
 | ;         | A-list, B-list, C-list     | - • - • - • |
 
-## Major System
+## Major system
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Mnemonic_major_system)
 
-| Numeral | Associated Letters |
+| Numeral | Associated letters |
 | ------- | ------------------ |
 | 1       | t, d               |
 | 2       | n                  |

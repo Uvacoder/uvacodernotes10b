@@ -58,7 +58,7 @@ title: Websites
 
 ## Medium
 
-- RSS Feed for Medium:
+- RSS feed for Medium:
 
   ```
   https://medium.com/feed/@Medium
@@ -104,7 +104,7 @@ title: Websites
 - [unit converter](https://www.google.com/search?q=unit+converter)
 - [internet speed test](https://www.google.com/search?q=internet+speed+test)
 
-## Google Search Easter Eggs
+## Google Search easter eggs
 
 - [askew](https://www.google.com/search?q=askew)
 - [do a barrel roll](https://www.google.com/search?q=do+a+barrel+roll)

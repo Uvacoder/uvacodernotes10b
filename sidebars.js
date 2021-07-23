@@ -22,7 +22,7 @@ module.exports = {
       'programming/css-scss',
       'programming/html',
     ],
-    'Puzzles/Recreational Mathematics': [
+    'Puzzles/Recreational mathematics': [
       'mathematics/rubiks-cube',
       'mathematics/martin-gardner',
       'mathematics/brian-brushwood',
