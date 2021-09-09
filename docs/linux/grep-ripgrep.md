@@ -1,6 +1,6 @@
 ---
-id: grep-ripgrep
-title: grep / ripgrep
+id: grep
+title: grep/ripgrep
 ---
 
 ## grep

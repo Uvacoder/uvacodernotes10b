@@ -52,7 +52,3 @@ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-qu
 - `<C-Shift-d>` - bookmark all open tabs in a folder.
 - `<C-Shift-r>` / `<C-F5>` - reload the tab and clear the cache.
 - `<C-Shift-t` - undo close tab.
-
-## Miscellaneous
-
-- Chromium and Firefox DevTools allow you to take a fullsize screenshot of any webpage!

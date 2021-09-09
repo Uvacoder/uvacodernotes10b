@@ -1,6 +1,6 @@
 ---
 id: vim
-title: Vim / Neovim
+title: Vim/Neovim
 ---
 
 ## Enable _italics_ in Vim
@@ -16,7 +16,7 @@ title: Vim / Neovim
 - `:b file` - switch between all open files.
 - `:b#` - open last visited file.
 
-## Tabs 
+## Tabs
 
 - `:tabs` - list all tabs including their displayed windows.
 - `:tabm 0` - move current tab to first.
@@ -46,6 +46,7 @@ In Normal mode:
 - `:g/import/d` - delete all lines including the word `import`.
 - `:g!/import/d` - delete all lines not including the word `import`.
 - `:g/^@/m$` - move all lines starting with `@` to the end of the document.
+- `:g/^$/d` - delete all blank lines in a document.
 
 ## Working with splits
 

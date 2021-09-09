@@ -11,7 +11,7 @@ module.exports = {
       'linux/window-managers',
       'linux/terminal-emulators',
       'linux/shells',
-      'linux/grep-ripgrep',
+      'linux/grep',
       'linux/text-editors-and-ides',
       'linux/browser',
       'linux/hacks',
@@ -19,7 +19,7 @@ module.exports = {
     Programming: [
       'programming/python',
       'programming/javascript',
-      'programming/css-scss',
+      'programming/css',
       'programming/html',
     ],
     'Puzzles/Recreational mathematics': [

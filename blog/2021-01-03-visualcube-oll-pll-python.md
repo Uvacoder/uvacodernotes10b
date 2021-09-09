@@ -21,7 +21,7 @@ The parameters work like this:
 
 The first 3 parts of the URL are static. What I want is a list of all PLL algorithms and use them one by one to form a URL and then download the page to my local disk.
 
-For the algorithms, I visited [AlgDb.net's PLL page](http://algdb.net/puzzle/333/pll), opened the developer console (CTRL+Shift+I), and ran this JavaScript code in Firefox's multi-line editor mode in the Console:
+For the algorithms, I visited [AlgDb.net's PLL page](http://algdb.net/puzzle/333/pll), opened the developer console (CTRL+Shift+I), and ran this JavaScript code in Firefox's multi-line editor mode:
 
 ```js
 let algs = '';
@@ -174,7 +174,7 @@ download_vis('pll', pll_url, plls)
 
 With VisualCube, it is also possible to make arrows for PLL cases. Additional parameters required for this are:
 
-- `ac`: Default Arrow Color
+- `ac`: Default arrow color
 - `arw`: Comma separated list of arrows to draw. Add `-s[0-9]` at the end to adjust the length of arrows. Check the following script to see how this works.
 
 ```python title="script.py"

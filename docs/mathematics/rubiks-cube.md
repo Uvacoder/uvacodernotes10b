@@ -63,20 +63,20 @@ title: Rubik's Cube
 
 ### 2-look PLL
 
-- Diagonal Corner Swap:
+- Diagonal corner swap:
 
   - Y: `F (R U' R' U') (R U R' F') (R U R' U') (R' F R F')`
 
-- Adjacent Corner Swap (Headlights):
+- Adjacent corner swap (headlights):
 
   - T: `(R U R' U') (R' F R2 U') R' U' (R U R' F')`
 
-- 3-Edges:
+- 3-edges:
 
   - Ua: `L2 U' (L' U' L U) L U (L U' L)` / `R U' R U R U R U' R' U' R2`
   - Ub: `R2 U (R U R' U') R' U' (R' U R')`
 
-- 4-Edges:
+- 4-edges:
 
   - H: `M2 U' M2 U2 M2 U' M2`
 
@@ -88,9 +88,9 @@ title: Rubik's Cube
 - Cube in a cube: `F L F U' R U F2 L2 U' L' B D' B' L2 U`
 - Cube in a cube in a cube: `U' L' U' F' R2 B' R F U B2 U B' L U' F U R F'`
 - Checkerboard in a cube: `B D F' B' D L2 U L U' B D' R B R D' R L' F U2 D`
-- Vertical Strips: `F U F R L2 B D' R D2 L D' B R2 L F U F`
+- Vertical strips: `F U F R L2 B D' R D2 L D' B R2 L F U F`
 - Strips: `R D R F R' F' B D R' U' B' U D2`
-- 4 Crosses: `U2 R2 L2 F2 B2 D2 L2 R2 F2 B2`
+- 4 crosses: `U2 R2 L2 F2 B2 D2 L2 R2 F2 B2`
 - 4Ts: `F2 D2 F' L2 D2 U2 R2 B' U2 F2`
 - 6Ts: `F2 R2 U2 F' B D2 L2 F B`
 - Solve only 3 sides: `U' D L2 U B2 D2 B2 D2 L F' U D' R U' F2 L F' B'`
@@ -100,10 +100,10 @@ title: Rubik's Cube
 - Sexy: `R U R' U'`
 - Sledgehammer: `R' F R F'`
 - Hedgeslammer: `F R' F' R`
-- Sune / Anti-chair: `R U R' U R U2 R'`
+- Sune / Anti-Chair: `R U R' U R U2 R'`
 - Fat Sune: `r U R' U R U2 r'`
-- Antisune / Chair: `R U2 R' U' R U' R'`
-- Fat Antisune: `r U2 R' U' R U' r'`
+- Anti-Sune / Chair: `R U2 R' U' R U' R'`
+- Fat Anti-Sune: `r U2 R' U' R U' r'`
 - Double Sune: `R U R' U R U' R' U R U2 R'`
 - Air Jeff: `R U2 R2 U' R2 U' R2 U2 R`
 
@@ -125,4 +125,4 @@ title: Rubik's Cube
 
 ### Speffz lettering scheme
 
-[![Speffz Lettering Scheme](https://www.speedsolving.com/wiki/images/4/49/Speffz.png)](https://www.speedsolving.com/wiki/index.php/Speffz)
+[![Speffz lettering scheme](https://www.speedsolving.com/wiki/images/4/49/Speffz.png)](https://www.speedsolving.com/wiki/index.php/Speffz)

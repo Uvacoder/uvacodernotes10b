@@ -1,4 +1,4 @@
 ---
 id: sample-chapter
-title: Sample Chapter
+title: Sample chapter
 ---

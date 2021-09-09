@@ -116,9 +116,17 @@ title: Quotes
 
 > _Somewhere, something incredible is waiting to be known._
 
+### Richard Feynman
+
+> _Study hard what interests you the most in the most undisciplined, irreverent and original manner possible._
+
 ### Isaac Asimov
 
 > _People who think they know everything are a great annoyance to those of us who do._
+
+###  Arthur C. Clarke
+
+> _I don’t believe in astrology; I’m a Sagittarius and we’re skeptical._
 
 ---
 

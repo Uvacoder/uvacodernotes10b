@@ -24,7 +24,7 @@ slug: /
   ps axch -o cmd:15,%cpu --sort=-%cpu | head
   ```
 
-- Does your Terminal Emulator support _Italics_?<br />
+- Does your terminal emulator support _italics_?<br />
 
   ```
   echo -e "\e[3m foo \e[23m"
@@ -246,7 +246,7 @@ Comment=pCloud Cloud Storage
 
 ## Miscellaneous
 
-- Drop into a tty(tty3): `Ctrl + Alt + F3`
+- Drop into a tty (tty3): `Ctrl + Alt + F3`
 - Move to different ttys: `Alt + Left/Right`
 - Mod Keys:
   - Mod1 : Left alt
