@@ -4,7 +4,7 @@
 
 These are companion notes to my [dotfiles](https://github.com/rsapkf/dotfiles) and [links](https://github.com/rsapkf/42/) where I keep short snippets of code, shell scripts, tricks and tips to remember stuff.
 
-Notes are in [docs/](https://github.com/rsapkf/notes/tree/master/docs) directory.
+Notes are in [`docs/`](https://github.com/rsapkf/notes/tree/master/docs) directory.
 
 View all notes: [notes.rsapkf.xyz](https://notes.rsapkf.xyz/)
 
