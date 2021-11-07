@@ -107,6 +107,16 @@ title: Rubik's Cube
 - Double Sune: `R U R' U R U' R' U R U2 R'`
 - Air Jeff: `R U2 R2 U' R2 U' R2 U2 R`
 
+## 4x4x4
+
+### OLL parity algorithm
+
+`Rw U2 x Rw U2 Rw U2 Rw' U2 Lw U2 Rw' U2 Rw U2 Rw' U2 Rw'`
+
+### PLL parity algorithm
+
+`r2 U2 r2 Uw2 r2 Uw2 U2`
+
 ## 7x7x7
 
 ### Edge flipping algorithm
