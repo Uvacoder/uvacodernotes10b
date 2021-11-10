@@ -28,7 +28,7 @@ orange
 ( echo $var | awk '{print $2}'; )  0.00s user 0.01s system 107% cpu 0.008 total
 ```
 
-awk takes ~0.008 seconds whereas these builtin alternatices take only ~0.002 seconds
+awk takes ~0.008 seconds whereas these builtin alternatives take just ~0.002 seconds
 
 ```
 ➜  ~ echo "${var%% *}"

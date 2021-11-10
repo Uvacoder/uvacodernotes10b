@@ -64,6 +64,8 @@ title: Quotes
 
 > _Live Long and Prosper._ 🖖
 
+> _You mistake my choice not to feel as a reflection of my not caring. Well, I assure you, the truth is precisely the opposite._ - Spock
+
 #### Jean-Luc Picard
 
 > _It is possible to commit no mistakes and still lose. That is not weakness, that is life._
@@ -124,7 +126,7 @@ title: Quotes
 
 > _People who think they know everything are a great annoyance to those of us who do._
 
-###  Arthur C. Clarke
+### Arthur C. Clarke
 
 > _I don’t believe in astrology; I’m a Sagittarius and we’re skeptical._
 

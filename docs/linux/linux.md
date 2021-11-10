@@ -109,7 +109,7 @@ groupmod -n <new_group> <old_group>
 9. Log out.
 10. Exit tty.
 
-## Connect to wifi network with `nmcli`
+## Connect to Wi-Fi network with `nmcli`
 
 Show available access points:
 
@@ -123,7 +123,7 @@ Connect:
 nmcli dev wifi connect <access_point> password <password>
 ```
 
-## Connect to a hidden wifi network using `nmcli`
+## Connect to a hidden Wi-Fi network using `nmcli`
 
 ```
 nmcli c add type wifi con-name <connect name> ifname wlp1s0 ssid <SSID>
@@ -144,8 +144,8 @@ sudo service network-manager start
 
 ## Desktop entry template
 
-- [ArchWiki Page](https://wiki.archlinux.org/index.php/Desktop_entries)
-- [freedesktop.org Specification](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#recognized-keys)
+- [ArchWiki](https://wiki.archlinux.org/index.php/Desktop_entries)
+- [freedesktop.org](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#recognized-keys)
 
 Example .desktop file (`~/.local/share/applications`):
 

@@ -2,8 +2,6 @@ module.exports = {
   title: '[rsapkf/notes]',
   titleDelimiter: '::',
   tagline: '"I\'m writing this down. This is good stuff." - George McFly',
-  // url: 'https://rsapkf.github.io',
-  // baseUrl: '/notes/',
   url: 'https://rsapkf-notes.netlify.app',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -14,7 +12,9 @@ module.exports = {
       defaultMode: 'dark',
     },
     navbar: {
+      style: 'dark',
       title: '[rsapkf/notes]',
+      hideOnScroll: true,
       logo: {
         alt: 'notes logo',
         src: 'img/undraw_Notebook.svg',
@@ -65,8 +65,6 @@ module.exports = {
     algolia: {
       apiKey: '1de83fa2ba21b6cfbec9865ea4f26935',
       indexName: 'rsapkf',
-      // appId: 'app-id', // Optional, if you run the DocSearch crawler on your own
-      algoliaOptions: {}, // Optional, if provided by Algolia
     },
     footer: {
       style: 'dark',

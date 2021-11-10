@@ -3,8 +3,8 @@ id: window-managers
 title: Window managers
 ---
 
-
 ## dwm
+
 - Write a desktop entry for dwm so that it shows up as an option in your login
   screen on GDM on Ubuntu:
 
@@ -16,13 +16,11 @@ title: Window managers
   Comment=Dynamic window manager
   Exec=dwm
   Icon=dwm
-  Type=XSession 
+  Type=XSession
   ```
-
 
 ## i3
 
-## Xmonad
+## xmonad
 
 ## qtile
-

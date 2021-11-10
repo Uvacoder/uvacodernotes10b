@@ -10,7 +10,7 @@ title: Exporting data
 
 ## YouTube
 
-- [YouTube Subscription Manager](https://youtube.com/subscription_manager) - Export YouTube subscriptions to OPML.
+- [YouTube Subscription Manager](https://youtube.com/subscription_manager) - export YouTube subscriptions to OPML.
 
 ## Google
 

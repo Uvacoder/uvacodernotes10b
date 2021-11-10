@@ -40,8 +40,8 @@ module.exports = {
     Books: [
       {
         'Python Tricks - Dan Bader': [
-          'books/python_tricks_dan_bader/toc',
-          'books/python_tricks_dan_bader/sample-chapter',
+          'books/python-tricks/toc',
+          'books/python-tricks/sample-chapter',
         ],
       },
     ],

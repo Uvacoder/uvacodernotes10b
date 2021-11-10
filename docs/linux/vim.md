@@ -26,13 +26,13 @@ title: Vim/Neovim
 - `:tabfirst` - go to first tab.
 - `:tablast` - go to last tab.
 
-In Normal mode:
+In normal mode:
 
 - `gt` - go to next tab.
 - `gT` - go to previous tab.
 - `{i}gt` - go to tab in position `i`.
 
-## Command Mode
+## Command mode
 
 - `:earlier 10m` - time travel in time to 10 minutes ago inside Vim.
 - `:later 10m` - time travel in time to 10 minutes later inside Vim.
@@ -48,7 +48,7 @@ In Normal mode:
 - `:g/^@/m$` - move all lines starting with `@` to the end of the document.
 - `:g/^$/d` - delete all blank lines in a document.
 
-## Working with splits
+## Splits
 
 - `:split` / `:sp` - horizontal split.
   - `:10sp` - 10 lines high horizontal split.
@@ -65,7 +65,7 @@ In Normal mode:
 ## Miscellaneous
 
 - `:set wrap` / `:set nowrap`
-- Default `leader` is `\` (I map to it to `<space>` / `,`)
+- Default `leader` is `\` (I map to it to `<space>`/`,`)
 - `<CR>` (aka carriage/cartridge return) means `Enter`/`Return`.
-- Alternative to `<ESC>`: `<C-[>` (I map `<ESC>` to `jj` / `jk`)
+- Alternative to `<ESC>`: `<C-[>` (I map `<ESC>` to `jj`/`jk`)
 - `:smile`
