@@ -11,7 +11,7 @@ title: Text editors and IDEs
 
 - `<C-:>` - open emoji window.
 - `F9` - toggle side panel.
-- Install Dracula Theme(https://draculatheme.com/gedit)
+- Install Dracula Theme (https://draculatheme.com/gedit)
 
   - Download the raw file:
 
@@ -22,8 +22,6 @@ title: Text editors and IDEs
     `$ mv dracula.xml $HOME/.local/share/gedit/styles/`
 
   - Activate in gedit's preferences dialog.
-
----
 
 ## Pycharm
 
