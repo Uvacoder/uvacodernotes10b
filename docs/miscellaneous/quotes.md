@@ -64,7 +64,7 @@ title: Quotes
 
 > _Live Long and Prosper._ 🖖
 
-> _You mistake my choice not to feel as a reflection of my not caring. Well, I assure you, the truth is precisely the opposite._ - Spock
+> _You mistake my choice not to feel as a reflection of my not caring. Well, I assure you, the truth is precisely the opposite._
 
 #### Jean-Luc Picard
 
@@ -125,6 +125,8 @@ title: Quotes
 ### Isaac Asimov
 
 > _People who think they know everything are a great annoyance to those of us who do._
+
+> _Violence is the last refuge of the incompetent._
 
 ### Arthur C. Clarke
 

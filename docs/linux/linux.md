@@ -6,61 +6,61 @@ slug: /
 
 ## Some useful commands
 
-- Free memory (2.2G/7.6G)<br />
+- Free memory (2.2G/7.6G)
 
   ```
   free -h | awk '/^Mem:/ {print $3 "/" $2}'
   ```
 
-- Top 10 most memory intensive processes<br />
+- Top 10 most memory intensive processes
 
   ```
   ps axch -o cmd:15,%mem --sort=-%mem | head
   ```
 
-- Top 10 most CPU intensive processes<br />
+- Top 10 most CPU intensive processes
 
   ```
   ps axch -o cmd:15,%cpu --sort=-%cpu | head
   ```
 
-- Does your terminal emulator support _italics_?<br />
+- Does your terminal emulator support _italics_?
 
   ```
   echo -e "\e[3m foo \e[23m"
   ```
 
-- `dd` command usage to burn an iso to a flash drive<br />
+- `dd` command usage to burn an iso to a flash drive
 
   ```
   dd if=Downloads/archlinux-x86_64.iso of=/dev/sdb status=progress
   ```
 
-- Display the SSID of connected network<br />
+- Display the SSID of connected network
 
   ```
   nmcli -t -f active,ssid dev wifi | egrep '^yes' | cut -d\' -f2
   ```
 
-- Colormap in terminal<br />
+- Colormap in terminal
 
   ```
   msgcat --color=test
   ```
 
-- Set a random wallpaper from r/earthporn<br />
+- Set a random wallpaper from r/earthporn
 
   ```
   wget -O - -q reddit.com/r/earthporn.json | jq '.data.children[] |.data.url' | head -1 | xargs feh --bg-fill
   ```
 
-- Browse memes from r/memes<br />
+- Browse memes from r/memes
 
   ```
   wget -O - -q reddit.com/r/memes.json | jq '.data.children[] |.data.url' | xargs feh
   ```
 
-- Runs `command1` 1 out of 10 times<br />
+- Runs `command1` 1 out of 10 times
 
   ```
   [ $[$RANDOM % 10] = 0 ] && command1 || command2

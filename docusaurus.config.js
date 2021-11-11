@@ -1,7 +1,7 @@
 module.exports = {
-  title: '[rsapkf/notes]',
+  title: '[rsapkf/73]',
   titleDelimiter: '::',
-  tagline: '"I\'m writing this down. This is good stuff." - George McFly',
+  tagline: '"I\'m writing this down. This is good stuff."',
   url: 'https://rsapkf-notes.netlify.app',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -13,7 +13,7 @@ module.exports = {
     },
     navbar: {
       style: 'dark',
-      title: '[rsapkf/notes]',
+      title: '[rsapkf/73]',
       hideOnScroll: true,
       logo: {
         alt: 'notes logo',
@@ -34,7 +34,7 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://github.com/rsapkf/notes/',
+          href: 'https://github.com/rsapkf/73/',
           label: 'GitHub',
           position: 'right',
         },
@@ -120,7 +120,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/rsapkf/notes/',
+              href: 'https://github.com/rsapkf/73/',
             },
           ],
         },
@@ -134,11 +134,11 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/rsapkf/notes/blob/master/',
+          editUrl: 'https://github.com/rsapkf/73/blob/main/',
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/rsapkf/notes/blob/master/',
+          editUrl: 'https://github.com/rsapkf/73/blob/main/',
           feedOptions: {
             type: 'all',
             copyright: `Copyright © ${new Date().getFullYear()} rsapkf`,

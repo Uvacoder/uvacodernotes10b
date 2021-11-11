@@ -6,7 +6,7 @@ title: Exporting data
 ## IMDb
 
 - Export IMDb data to csv:
-  - Log in > Your ratings > Overflow Menu > Export
+  - Log in > Your ratings > Overflow menu > Export
 
 ## YouTube
 

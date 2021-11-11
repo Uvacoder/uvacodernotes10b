@@ -26,16 +26,6 @@ const features = [
     imageUrl: 'img/undraw_taking_notes.svg',
     description: <></>,
   },
-  // {
-  //   title: <>Powered by React</>,
-  //   imageUrl: 'img/undraw_docusaurus_react.svg',
-  //   description: (
-  //     <>
-  //       Extend or customize your website layout by reusing React. Docusaurus can
-  //       be extended while reusing the same header and footer.
-  //     </>
-  //   ),
-  // },
 ];
 
 function Feature({ imageUrl, title, description }) {
@@ -61,7 +51,15 @@ function Home() {
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className='container'>
           <h1 className='hero__title'>{siteConfig.title}</h1>
-          <p className='hero__subtitle'>{siteConfig.tagline}</p>
+          <a
+            href='https://www.youtube.com/watch?v=yGzCAV3S1Vc'
+            style={{ color: '#222321' }}
+            target='_blank'
+            rel='noreferrer noopener'
+          >
+            <p className='hero__subtitle'>{siteConfig.tagline}</p>{' '}
+          </a>
+
           <div className={styles.buttons}>
             <Link
               className={classnames(
@@ -78,7 +76,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted
               )}
-              href='https://github.com/rsapkf/notes/'
+              href='https://github.com/rsapkf/73/'
             >
               GitHub
             </a>

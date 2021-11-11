@@ -5,19 +5,21 @@ title: JavaScript
 
 - Get random item from `possibleOptions` array:
 
-```
-possibleOptions[Math.floor(Math.random()*possibleOptions.length)];`
-```
+  ```
+  possibleOptions[Math.floor(Math.random()*possibleOptions.length)];`
+  ```
 
 ## Node/npm
 
 - See all user installed packages:
 
-```
-npm list -g --depth=0`
-```
+  ```
+  npm list -g --depth=0
+  ```
 
 ## Redirect to another website:
+
+[[\*](https://css-tricks.com/redirect-web-page/)]
 
 - With HTML `<meta>` tags (not recommended by W3C):
 
@@ -28,11 +30,10 @@ npm list -g --depth=0`
   ```
 
 - With JavaScript:
+
   ```
   window.location = "http://new-website.com"; // or one of these
   window.location.href = "http://new-website.com";
   window.location.assign("http://new-website.com");
   window.location.replace("http://new-website.com");
   ```
-
-  Details: https://css-tricks.com/redirect-web-page/

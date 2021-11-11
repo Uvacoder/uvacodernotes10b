@@ -7,20 +7,21 @@ title: Text editors and IDEs
 
 ## Sublime Text
 
-## Gedit
+To enable Vim mode, go to user settings (Settings > Preferences) and remove `Vintage` from `ignored_packages` array.
+
+## gedit
 
 - `<C-:>` - open emoji window.
 - `F9` - toggle side panel.
-- Install Dracula Theme (https://draculatheme.com/gedit)
-
+- Install [Dracula theme](https://draculatheme.com/gedit):
   - Download the raw file:
-
-    `$ wget https://raw.githubusercontent.com/dracula/gedit/master/dracula.xml`
-
+    ```
+    $ wget https://raw.githubusercontent.com/dracula/gedit/master/dracula.xml
+    ```
   - Move the file to gedit styles folder:
-
-    `$ mv dracula.xml $HOME/.local/share/gedit/styles/`
-
+    ```
+    $ mv dracula.xml $HOME/.local/share/gedit/styles/
+    ```
   - Activate in gedit's preferences dialog.
 
 ## Pycharm

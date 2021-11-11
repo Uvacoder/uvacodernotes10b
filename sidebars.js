@@ -1,5 +1,5 @@
 module.exports = {
-  notes: {
+  notesSidebar: {
     Linux: [
       'linux/linux',
       'linux/suckless',
@@ -12,17 +12,21 @@ module.exports = {
       'linux/terminal-emulators',
       'linux/shells',
       'linux/grep',
+      'linux/sed',
+      'linux/awk',
       'linux/text-editors-and-ides',
       'linux/browser',
-      'linux/hacks',
     ],
     Programming: [
       'programming/python',
       'programming/javascript',
+      'programming/typescript',
+      'programming/haskell',
+      'programming/rust',
       'programming/css',
       'programming/html',
     ],
-    'Puzzles/Recreational mathematics': [
+    'Recreational mathematics': [
       'mathematics/rubiks-cube',
       'mathematics/martin-gardner',
       'mathematics/brian-brushwood',
