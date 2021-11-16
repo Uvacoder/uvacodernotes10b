@@ -14,7 +14,7 @@ const features = [
       <>
         <p>
           These are companion notes to my [
-          <a href='https://github.com/rsapkf/dotfiles/'>dotfiles</a>] and [
+          <a href='https://github.com/rsapkf/config/'>dotfiles</a>] and [
           <a href='https://github.com/rsapkf/42/'>links</a>] where I keep short
           snippets of code, shell scripts, tricks and tips to remember stuff.
         </p>

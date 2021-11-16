@@ -52,7 +52,7 @@ module.exports = {
             },
             {
               label: 'Dotfiles',
-              href: 'https://github.com/rsapkf/dotfiles/',
+              href: 'https://github.com/rsapkf/config/',
             },
             {
               label: 'CFOP algs',

@@ -15,7 +15,7 @@ Some things I like to do when setting up a new Linux machine.
 
 ### Install dotfiles
 
-Pull up my [dotfiles](https://github.com/rsapkf/dotfiles/) and run the install script.
+Pull up my [dotfiles](https://github.com/rsapkf/config/) and run the install script.
 
 ### Install programs
 
