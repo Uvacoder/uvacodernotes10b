@@ -5,12 +5,12 @@ title: Exporting data
 
 ## IMDb
 
-- Export IMDb data to csv:
+- Export IMDb data to CSV:
   - Log in > Your ratings > Overflow menu > Export
 
 ## YouTube
 
-- [YouTube Subscription Manager](https://youtube.com/subscription_manager) - export YouTube subscriptions to OPML.
+- [YouTube Subscription Manager](https://youtube.com/subscription_manager) - Export YouTube subscriptions to OPML. `deprecated`
 
 ## Google
 
@@ -32,6 +32,6 @@ title: Exporting data
 - [Pocket Export](https://getpocket.com/export)
 - [Pocket Delete Data](https://getpocket.com/privacy_clear/)
 
-## Facebook (don't recommend using this junk but here it is anyway)
+## Facebook
 
 - [Download Facebook Information](https://www.facebook.com/dyi/)

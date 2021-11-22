@@ -11,18 +11,16 @@ To enable Vim mode, go to user settings (Settings > Preferences) and remove `Vin
 
 ## gedit
 
-- `<C-:>` - open emoji window.
-- `F9` - toggle side panel.
-- Install [Dracula theme](https://draculatheme.com/gedit):
-  - Download the raw file:
-    ```
-    $ wget https://raw.githubusercontent.com/dracula/gedit/master/dracula.xml
-    ```
-  - Move the file to gedit styles folder:
-    ```
-    $ mv dracula.xml $HOME/.local/share/gedit/styles/
-    ```
-  - Activate in gedit's preferences dialog.
+- `<C-:>`: Open emoji window.
+- `F9`: Toggle side panel.
+- Install [Dracula theme](https://draculatheme.com/gedit)
+  ```shell
+  # Download the raw file:
+  wget https://raw.githubusercontent.com/dracula/gedit/master/dracula.xml
+  # Move the file to gedit styles dir:
+  mv dracula.xml $HOME/.local/share/gedit/styles/
+  # Activate in gedit's preferences dialog.
+  ```
 
 ## Pycharm
 

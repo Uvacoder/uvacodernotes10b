@@ -5,13 +5,16 @@ title: Setting up a new machine
 
 Some things I like to do when setting up a new Linux machine.
 
-### Map `CAPSLOCK` to `CTRL` and vice versa.
+### Map `CapsLock` to `Ctrl` and vice versa
 
-- On Debian ([EmacsWiki](https://www.emacswiki.org/emacs/MovingTheCtrlKey), [WikiWikiWeb](http://wiki.c2.com/?RemapCapsLock)):
+[[\*](https://www.emacswiki.org/emacs/MovingTheCtrlKey), [\*](http://wiki.c2.com/?RemapCapsLock)]
 
-  - `vim /etc/default/keyboard`
-  - Change the line that reads `XKBOPTIONS=""` to `XKBOPTIONS="ctrl:swapcaps"`
-  - `$ sudo dpkg-reconfigure -phigh console-setup`
+```shell
+# On Debian
+vim /etc/default/keyboard
+# Change the line that reads `XKBOPTIONS=""` to `XKBOPTIONS="ctrl:swapcaps"`
+sudo dpkg-reconfigure -phigh console-setup
+```
 
 ### Install dotfiles
 

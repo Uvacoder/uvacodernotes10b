@@ -22,16 +22,14 @@ function About() {
             <a href='https://github.com/rsapkf/42/'>links</a> where I keep short
             snippets of code, shell scripts, tricks and tips to remember stuff.
           </p>
-          <i>
+          <p>
             This site was created using{' '}
-            <a href='https://docusaurus.io/'>Docusaurus</a>
-            . <br />
-            Search powered by{' '}
+            <a href='https://docusaurus.io/'>Docusaurus</a>. Search powered by{' '}
             <a href='https://github.com/algolia/docsearch/'>
               Algolia DocSearch
             </a>
             .
-          </i>
+          </p>
         </p>
       </div>
     </Layout>

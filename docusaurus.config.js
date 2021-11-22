@@ -21,15 +21,20 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
+          type: 'doc',
+          docId: 'linux/linux',
+          position: 'left',
           label: 'Notes',
-          position: 'right',
         },
-        { to: 'blog/', label: 'Blog', position: 'right' },
+        {
+          type: 'doc',
+          docId: 'books/python-tricks/introduction',
+          position: 'left',
+          label: 'Book notes',
+        },
+        { href: 'https://rsapkf.xyz/blog/', label: 'Blog', position: 'left' },
         {
           to: 'about/',
-          activeBasePath: 'about',
           label: 'About',
           position: 'right',
         },
@@ -39,6 +44,7 @@ module.exports = {
           position: 'right',
         },
         {
+          type: 'dropdown',
           label: 'Links',
           position: 'right',
           items: [
@@ -70,11 +76,11 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Links',
+          title: 'Quick links',
           items: [
             {
               label: 'Linux',
-              to: 'docs/',
+              to: 'docs/linux/linux/',
             },
             {
               label: 'Vim',
@@ -84,6 +90,14 @@ module.exports = {
               label: 'tmux',
               to: 'docs/linux/tmux/',
             },
+            {
+              label: 'Git',
+              to: 'docs/linux/git/',
+            },
+            {
+              label: "Rubik's Cube",
+              to: 'docs/mathematics/speedcubing/',
+            },
           ],
         },
         {
@@ -91,7 +105,7 @@ module.exports = {
           items: [
             {
               label: 'Linux',
-              to: 'docs/',
+              to: 'docs/linux/linux/',
             },
             {
               label: 'Programming',
@@ -99,7 +113,11 @@ module.exports = {
             },
             {
               label: 'Mathematics',
-              to: 'docs/mathematics/martin-gardner/',
+              to: 'docs/mathematics/speedcubing/',
+            },
+            {
+              label: 'Privacy',
+              to: 'docs/privacy/privacy/',
             },
           ],
         },
@@ -107,16 +125,12 @@ module.exports = {
           title: 'Etc.',
           items: [
             {
-              label: 'View all notes',
-              to: 'docs/',
+              label: 'All notes',
+              to: 'docs/linux/linux/',
             },
             {
-              label: 'Blog',
-              to: 'blog/',
-            },
-            {
-              label: 'RSS',
-              to: 'blog/rss.xml',
+              label: 'Book notes',
+              to: 'docs/books/python-tricks/introduction/',
             },
             {
               label: 'GitHub',
@@ -126,6 +140,9 @@ module.exports = {
         },
       ],
       copyright: `© ${new Date().getFullYear()} <a href="https://rsapkf.xyz/">rsapkf</a>`,
+    },
+    prism: {
+      theme: require('prism-react-renderer/themes/dracula'),
     },
   },
   presets: [

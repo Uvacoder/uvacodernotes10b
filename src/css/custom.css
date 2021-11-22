@@ -30,3 +30,8 @@ html[data-theme='light'] {
 html[data-theme='dark'] {
   --ifm-background-color: #161923;
 }
+
+.navbar--dark,
+.footer--dark {
+  background-color: #282a36;
+}

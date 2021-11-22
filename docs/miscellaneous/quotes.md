@@ -150,6 +150,10 @@ title: Quotes
 
 > _Years of love have been forgot, In the hatred of a minute._
 
+### Ernest Hemingway
+
+> _There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self._
+
 ### James Randi
 
 > _I've said it before: there are two sorts of atheists. One sort claims that there is no deity, the other claims that there is no evidence that proves the existence of a deity; I belong to the latter group, because if I were to claim that no god exists, I would have to produce evidence to establish that claim, and I cannot. Religious persons have by far the easier position; they say they believe in a deity because that's their preference, and they've read it in a book. That's their right._
