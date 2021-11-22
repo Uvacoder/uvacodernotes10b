@@ -6,7 +6,7 @@ title: Wget
 ```shell
 wget [options] <URL> # Basic usage
 wget https://example.org # Download a web page to local disk
-wget -O main.html <URL> # Download file as `main.html`
+wget -O main.html https://example.org # Save the file as `main.html`
 wget -P ~/src/docs/ <URL> # Save the file to `~/src/docs/` directory
 wget -o <logfile> <URL> # Log all messages to logfile
 

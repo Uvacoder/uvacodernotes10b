@@ -95,7 +95,7 @@ module.exports = {
               to: 'docs/linux/git/',
             },
             {
-              label: "Rubik's Cube",
+              label: 'Speedcubing',
               to: 'docs/mathematics/speedcubing/',
             },
           ],
