@@ -28,3 +28,9 @@ wget -m -k -p -np -P ~/docs/web/ https://example.org # Download entire website
 # -p, --page-requisites: Download all the files necessary for local browsing (stylesheets, images, sounds, etc)
 # -np, --no-parent: Ensure that directories above the hierarchy are not retrieved
 ```
+
+- Find broken links on your website [[\*](https://www.digitalocean.com/community/tutorials/how-to-find-broken-links-on-your-website-using-wget-on-debian-7)]
+
+  ```shell
+  wget --spider -r -nd -nv -H -l 1 -w 2 -o run1.log http://your_server_ip/index.html
+  ```

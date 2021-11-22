@@ -38,7 +38,6 @@ bind -n M-l select-pane -R
 
 ```shell
 <prefix> ? # List all key bindings
-<prefix> t # Show the time
 
 # Panes
 <prefix> q # Briefly display pane indexes
@@ -55,8 +54,10 @@ bind -n M-l select-pane -R
 <prefix> w # Choose the current window interactively
 <prefix> M-n # Move to the next window with a bell or activity marker
 <prefix> M-p # Move to the previous window with a bell or activity marker
-<prefix> ! # Move the current pane into a new separate window
 <prefix> [0-9] # Select windows 0-9
+<prefix> ! # Move the current pane into a new separate window
+
+<prefix> t # Show the time
 <prefix> [ # Enter copy mode to copy text or view the history
 <prefix> ] # Paste the most recently copied buffer of text
 ```
