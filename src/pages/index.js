@@ -10,14 +10,16 @@ function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout title={`${siteConfig.title}`} description="@rsapkf\'s notes.">
-      <main style={{ marginTop: '6rem', marginBottom: '1rem' }}>
+      <main style={{ marginTop: '4rem', marginBottom: '1rem' }}>
         <div className='container col'>
           <a
             href='https://www.youtube.com/watch?v=yGzCAV3S1Vc'
             target='_blank'
             rel='noreferrer noopener'
           >
-            <p className='hero__subtitle'>{siteConfig.tagline}</p>{' '}
+            <p className='hero__subtitle'>
+              "I'm writing this down. This is good stuff."
+            </p>{' '}
           </a>
           <Link to='/docs/linux/linux'>
             <img

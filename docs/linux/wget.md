@@ -14,7 +14,7 @@ wget --limit-rate=500k <URL> # Limit download speed to 500 KBps
 wget -tries=100 <URL> # Specify retry attempts
 
 wget -b <URL> # Download in background.
-# If no output file is specified via the -o, output is redirected to wget-log
+# If no output file is specified via the -o, output is redirected to `wget-log`
 
 wget -i <file> # Read URLs to download from file
 wget -w 20 -i <file> # Wait 20 seconds between retrievals

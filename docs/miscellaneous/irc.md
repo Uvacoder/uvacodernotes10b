@@ -5,28 +5,30 @@ title: IRC
 
 ## IRC commands
 
-- Register your nick:
+### Register your nick
 
-  ```
-  /msg NickServ REGISTER YourPassword youremail@example.com
-  ```
+```
+/msg NickServ REGISTER <password> <email>
+```
 
-- Identify your nick:
+### Identify your nick
 
-  ```
-  /msg NickServ IDENTIFY YourNick YourPassword
-  ```
+```
+/msg NickServ IDENTIFY <nick> <password>
+```
 
-- Change password:
+### Change password
 
-  ```
-  /msg NickServ SENDPASS youraccountnamehere
-  /msg NickServ SET PASSWORD newpasswordhere
-  ```
+```
+/msg NickServ SENDPASS <account_name>
+/msg NickServ SET PASSWORD <new_password>
+```
 
 ## IRC channels
 
-- Libera.Chat: `#lobsters`
-- Freenode: `#python`, `##linux`, `#vim`
+[[\*](https://www.python.org/community/), [\*](https://wiki.ubuntu.com/IRC/ChannelList)]
+
+- Libera.Chat: `#libera`, `#lobsters`, `#python`, `#python-dev`, `#linux`, `#archlinux`, `#ubuntu`, `#fedora`, `#gentoo`, `#freebsd`, `#openbsd`, `#vim`, `#neovim`, `#matrix`, `#nginx`, `#fsf`, `#gnu`, `#c`, `#debian`, `#emacs`, `#haskell`, `#postgresql`
 - IRCHighway: `#ebooks`
 - Undernet: `#books`
+- Freenode: [👎](https://hn.algolia.com/?q=freenode)

@@ -6,7 +6,6 @@ title: Vim
 ## Enable _italics_ in Vim
 
 - add `highlight Comment cterm=italic` to `~/.vimrc` (**after the colorscheme declaration**).
-
 - If using [nanotech/jellybeans.vim](https://github.com/nanotech/jellybeans.vim) colorscheme, make sure to add `let g:jellybeans_use_term_italics = 1` too.
 
 ## Buffers

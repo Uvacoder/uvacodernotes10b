@@ -1,7 +1,10 @@
+const math = require('remark-math');
+const katex = require('rehype-katex');
+
 module.exports = {
   title: '[rsapkf/73]',
   titleDelimiter: '::',
-  tagline: '"I\'m writing this down. This is good stuff."',
+  tagline: "@rsapkf's notes.",
   url: 'https://rsapkf-notes.netlify.app',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -11,6 +14,7 @@ module.exports = {
     colorMode: {
       defaultMode: 'dark',
     },
+    hideableSidebar: true,
     navbar: {
       style: 'dark',
       title: '[rsapkf/73]',
@@ -32,17 +36,12 @@ module.exports = {
           position: 'left',
           label: 'Book notes',
         },
-        { href: 'https://rsapkf.xyz/blog/', label: 'Blog', position: 'left' },
         {
           to: 'about/',
           label: 'About',
-          position: 'right',
+          position: 'left',
         },
-        {
-          href: 'https://github.com/rsapkf/73/',
-          label: 'GitHub',
-          position: 'right',
-        },
+        { href: 'https://rsapkf.xyz/blog/', label: 'Blog', position: 'right' },
         {
           type: 'dropdown',
           label: 'Links',
@@ -66,6 +65,12 @@ module.exports = {
             },
           ],
         },
+        {
+          href: 'https://github.com/rsapkf/73/',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
+        },
       ],
     },
     algolia: {
@@ -79,24 +84,36 @@ module.exports = {
           title: 'Quick links',
           items: [
             {
-              label: 'Linux',
-              to: 'docs/linux/linux/',
+              label: 'sed',
+              to: 'docs/linux/sed/',
             },
             {
-              label: 'Vim',
-              to: 'docs/linux/vim/',
+              label: 'awk',
+              to: 'docs/linux/awk/',
             },
             {
-              label: 'tmux',
-              to: 'docs/linux/tmux/',
+              label: 'jq',
+              to: 'docs/linux/jq/',
             },
             {
-              label: 'Git',
-              to: 'docs/linux/git/',
+              label: 'fzf',
+              to: 'docs/linux/fzf/',
+            },
+            {
+              label: 'PGP',
+              to: 'docs/linux/pgp/',
             },
             {
               label: 'Speedcubing',
-              to: 'docs/mathematics/speedcubing/',
+              to: 'docs/recreational-mathematics/speedcubing/',
+            },
+            {
+              label: 'Mnemonics',
+              to: 'docs/recreational-mathematics/mnemonics/',
+            },
+            {
+              label: 'Poems',
+              to: 'docs/miscellaneous/poems/',
             },
           ],
         },
@@ -112,8 +129,8 @@ module.exports = {
               to: 'docs/programming/python/',
             },
             {
-              label: 'Mathematics',
-              to: 'docs/mathematics/speedcubing/',
+              label: 'Recreational mathematics',
+              to: 'docs/recreational-mathematics/speedcubing/',
             },
             {
               label: 'Privacy',
@@ -133,8 +150,16 @@ module.exports = {
               to: 'docs/books/python-tricks/introduction/',
             },
             {
-              label: 'GitHub',
+              label: 'Source',
               href: 'https://github.com/rsapkf/73/',
+            },
+            {
+              label: 'Dotfiles',
+              href: 'https://github.com/rsapkf/config/',
+            },
+            {
+              label: '?',
+              href: 'https://math.dartmouth.edu/~carlp/sheldon02132019.pdf',
             },
           ],
         },
@@ -152,6 +177,8 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/rsapkf/73/blob/main/',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         blog: {
           showReadingTime: true,
@@ -166,5 +193,13 @@ module.exports = {
         },
       },
     ],
+  ],
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css',
+      integrity:
+        'sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc',
+      crossorigin: 'anonymous',
+    },
   ],
 };

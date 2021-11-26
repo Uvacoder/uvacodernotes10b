@@ -30,7 +30,7 @@ grep "^[[:upper:]]" <file> # Equivalent to above; Using POSIX classes
 
 ### Extended regular expressions
 
-Along with basic regular expressions (BREs, which is the default), `grep` also supports [extended regular expressions (EREs)](https://en.wikipedia.org/wiki/Regular_expression#Standards) by using the `-E` flag or by calling the `egrep` command.
+Along with basic regular expressions (BREs, which is the default), `grep` also supports [extended regular expressions (EREs)](https://en.wikipedia.org/wiki/Regular_expression#Standards) by using the `-E` option or by calling the `egrep` command.
 
 ```shell
 grep "\(group\)" <file> # Grouping

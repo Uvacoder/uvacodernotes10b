@@ -13,19 +13,19 @@ set -o vi # Enable vi mode in Bash
 Bash scripting tip:
 
 ```shell
-$ var="apple orange"
-$ echo $var
+> var="apple orange"
+> echo $var
 apple orange
 
-$ echo $var | awk '{print $1}'
+> echo $var | awk '{print $1}'
 apple
-$ time ( echo $var | awk '{print $1}' )
+> time ( echo $var | awk '{print $1}' )
 apple
 ( echo $var | awk '{print $1}'; )  0.01s user 0.00s system 107% cpu 0.008 total
 
-$ echo $var | awk '{print $2}'
+> echo $var | awk '{print $2}'
 orange
-$ time ( echo $var | awk '{print $2}' )
+> time ( echo $var | awk '{print $2}' )
 orange
 ( echo $var | awk '{print $2}'; )  0.00s user 0.01s system 107% cpu 0.008 total
 ```
@@ -33,15 +33,15 @@ orange
 awk takes ~0.008 seconds whereas these builtin alternatives take just ~0.002 seconds
 
 ```shell
-$ echo "${var%% *}"
+> echo "${var%% *}"
 apple
-$ time ( echo "${var%% *}" )
+> time ( echo "${var%% *}" )
 apple
 ( echo "${var%% *}"; )  0.00s user 0.00s system 71% cpu 0.002 total
 
-$ echo "${var##* }"
+> echo "${var##* }"
 orange
-$ time ( echo "${var##* }" )
+> time ( echo "${var##* }" )
 orange
 ( echo "${var##* }"; )  0.00s user 0.00s system 72% cpu 0.002 total
 ```

@@ -10,10 +10,10 @@ title: Linux
 free -h | awk '/^Mem:/ {print $3 "/" $2}'
 
 # Top 10 memory intensive processes
-ps axch -o cmd:15,%mem --sort=-%mem | head
+ps axch -o cmd:15,%mem --sort=-%mem | sed 10q
 
 # Top 10 CPU intensive processes
-ps axch -o cmd:15,%cpu --sort=-%cpu | head
+ps axch -o cmd:15,%cpu --sort=-%cpu | sed 10q
 
 # Does your terminal emulator support _italics_?
 echo -e "\e[3m foo \e[23m"
@@ -28,25 +28,36 @@ nmcli -t -f active,ssid dev wifi | egrep '^yes' | cut -d\' -f2
 msgcat --color=test
 
 # Set a random wallpaper from r/earthporn
-wget -O - -q reddit.com/r/earthporn.json | jq '.data.children[] |.data.url' | head -1 | xargs feh --bg-fill
+wget -O - -q reddit.com/r/earthporn.json | jq '.data.children[] | .data.url' | sed 1q | xargs feh --bg-fill
 
 # Browse memes from r/memes
-wget -O - -q reddit.com/r/memes.json | jq '.data.children[] |.data.url' | xargs feh
+wget -O - -q reddit.com/r/memes.json | jq '.data.children[] | .data.url' | xargs feh
 
 # Find external IP address
 curl ipinfo.io
 
-# See you most run commands
-history | awk '{print $2}' | sort | uniq -c | sort -rn | head
+# See your most run commands
+history | awk '{print $2}' | sort | uniq -c | sort -rn | sed 10q
 
 # Runs `command1` 1 out of 10 times
 [ $[$RANDOM % 10] = 0 ] && command1 || command2
-[ $[$RANDOM % 10] = 0 ] && timeout 5 command1 || command2
-[ $[$RANDOM % 10] = 0 ] && cmatrix || clear
+[ $[$RANDOM % 10] = 0 ] && cmatrix || clear # Will run `cmatrix` 1 out of 10 times you execute this command
 
-# Find and replace all occurences of a string/pattern in text files in a directory recursively [[\*](https://stackoverflow.com/a/1585189)]
-find /home/<username>/ -type f | xargs sed -i  's/<old>/<new>/g'
+# Find out which shell you are on
+echo $0 # or one of these
+echo $SHELL
+pstree $$
+cat /proc/$$/cmdline
+ps -p $$
+ps -p $$ -oargs=
+ps -p $$ -ocomm=
 ```
+
+- Find and replace all occurences of a string/pattern in text files in a directory recursively [[\*](https://stackoverflow.com/a/1585189)]
+
+  ```shell
+  find /home/<username>/ -type f | xargs sed -i  's/<old>/<new>/g'
+  ```
 
 ## Change username and usergroup
 
@@ -60,7 +71,7 @@ find /home/<username>/ -type f | xargs sed -i  's/<old>/<new>/g'
    sudo passwd root
    ```
 
-4. Log out.
+4. Log out:
 
    ```shell
    exit
@@ -85,19 +96,12 @@ find /home/<username>/ -type f | xargs sed -i  's/<old>/<new>/g'
 
 ## Connect to Wi-Fi network with `nmcli`
 
-Show available access points:
-
 ```shell
-nmcli dev wifi
+nmcli dev wifi # Show available access points
+nmcli dev wifi connect <access_point> password <password> # Connect
 ```
 
-Connect:
-
-```shell
-nmcli dev wifi connect <access_point> password <password>
-```
-
-## Connect to a hidden Wi-Fi network using `nmcli`
+## Connect to a hidden Wi-Fi network with `nmcli`
 
 ```shell
 nmcli c add type wifi con-name <connect name> ifname wlp1s0 ssid <SSID>
@@ -106,7 +110,7 @@ nmcli con modify <connect name> wifi-sec.psk <password>
 nmcli con up <connect name>
 ```
 
-## Change MAC address using `macchanger`
+## Change MAC address with `macchanger`
 
 ```shell
 sudo service network-manager stop
@@ -118,20 +122,90 @@ sudo service network-manager start
 
 ## Desktop entry template
 
-- [ArchWiki](https://wiki.archlinux.org/index.php/Desktop_entries)
-- [freedesktop.org](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#recognized-keys)
+- [Desktop entries - ArchWiki](https://wiki.archlinux.org/index.php/Desktop_entries)
+- [Desktop Entry Specification - freedesktop.org](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#recognized-keys)
 
-Example .desktop file (`~/.local/share/applications`):
+Example .desktop file:
 
-```
+```\ title="~/.local/share/applications/firefox_dev.desktop"
 [Desktop Entry]
-Name=pCloud
-GenericName=pCloud Client
-Exec=/opt/pcloud
+Name=Firefox Developer
+GenericName=Firefox Developer Edition
+Exec=/opt/firefox_dev/firefox/firefox
 Terminal=false
+Icon=/opt/firefox_dev/firefox/browser/chrome/icons/default/default128.png
 Type=Application
-Categories=Application;
-Comment=pCloud Cloud Storage
+Categories=Application;Network;X-Developer;
+Comment=Firefox Developer Edition Web Browser.
+```
+
+## Redirection
+
+Standard I/O streams:
+
+| stream | Description     | File descriptor |
+| ------ | --------------- | --------------- |
+| stdin  | Standard input  | 0               |
+| stdout | Standard output | 1               |
+| stderr | Standard error  | 2               |
+
+### Redirecting input `<`
+
+**stdin** usually takes input from the keyboard.
+
+```shell
+$ command < file.txt # Executing `command` with `file.txt` as the source of input
+```
+
+The output of one command can be redirected as the input for another with the `|` (pipe) character.
+
+```shell
+$ echo 'one two three' | tr a-z A-Z
+ONE TWO THREE
+```
+
+Using [here document](https://en.wikipedia.org/wiki/Here_document) and [here string](https://en.wikipedia.org/wiki/Here_string) with `<<` and `<<<` respectively:
+
+```shell
+$ tr a-z A-Z << END_TEXT
+one two three
+uno dos tres
+END_TEXT
+ONE TWO THREE
+UNO DOS TRES
+
+$ tr a-z A-Z <<< "one two three"
+ONE TWO THREE
+```
+
+### Redirecting output `>`
+
+Unless redirected, **stdout** shows its output to the terminal.
+
+```shell
+$ command > file.txt # Redirect output of `command` to `file.txt`
+# This will clobber (overwrite) any existing data in `file.txt`
+
+# To avoid clobbering, use `>>`
+$ command >> file.txt
+# This will append the output to the end of `file.txt`
+```
+
+Clobbering can be disabled by `set -o noclobber` [[\*](https://unix.stackexchange.com/questions/452865/are-there-any-disadvantages-of-setting-noclobber)]. If this is enabled but you want to temporary turn off noclobber for a single operation, use `>|`. To re-enable, use `set +o noclobber`.
+
+### Redirecting error `2>`
+
+Unless redirected, **stderr** shows the error messages to the terminal.
+
+```shell
+$ command 2> file.txt # Redirect errors from `command` to `file.txt`
+$ command 2>> file.txt # Avoid clobbering
+
+# To redirect stdout and stderr to the same file, use `2>&1`
+$ command 2>&1 file.txt
+
+$ ls | xargs du -sk 2> /dev/null
+# Redirecting stderr to the `/dev/null` device
 ```
 
 ## Useful programs
@@ -141,12 +215,12 @@ Comment=pCloud Cloud Storage
 - `[program] --help/-h`
 - `cat`
 - `tac`
-- `tr`: Translate or delete characters.
-- `cut`: Remove sections from each line of files.
-  - `cut -d, -f 2,3 ratings.csv`: Output only the 2nd and 3rd columns from ratings.csv file.
 - `less`
 - `echo`
-- `head`
+- `head <file>`: Output the first 10 lines of file.
+  - `head -N <file>`: Output the first N lines of file.
+  - `cat <file> | sed Nq`: Output the first N lines of file.
+- `tail <file>`: Output the last 10 lines of file.
 - `rm`: Remove files or directories.
   - `rm -f !(test.txt)`: Remove all files in the directory except `test.txt`.
 - `ls`
@@ -158,17 +232,16 @@ Comment=pCloud Cloud Storage
 - `cd`: Change working directory.
   - `cd -`: Change to previous working directory.
   - `cd ~-`: Same thing as `cd -` without echoing the path.
-- `tail`
 - `pwd`: Print name of current/working directory.
 - `passwd`: Change user password.
 - `alias`: List and create aliases.
 - `mkdir -p folder/{sub1,sub2}/{sub1,sub2,sub3}`: Make directories/subdirectories quickly.
 - `chsh`: Change login shell.
-- `grep`: Pattern searching.
 - `fdisk`: Disk partition utility.
 - `cfdisk`: Disk partition utility.
 - `dd`: Convert or copy a file, create bootable USBs from ISOs. **use cautiously. can destroy data irreversibly.** To monitor the progress of an operation, add the `status=progress` option to the command.
 - `wc`: Print newline, word and byte counts for files.
+  - `ls ~/docs | wc -l`: Print the number of files/folders in `~/docs`.
 - `history`: Show history.
   - `<space>man man`: Don't add `man man` command to history.
   - `fc`: Fix a long command that you messed up.
@@ -195,11 +268,112 @@ Comment=pCloud Cloud Storage
 - `updatedb`: Creates or updates a database used by locate.
 - `find`: Search for files in a directory hierarchy.
 - `file`: Determine file type.
+- `basename`: Given a pathname, returns the basename of a file or directory.
+- `tree`: List contents of directories in a tree-like format.
+
+### `tr`
+
+Translate or delete characters.
+
+```shell
+> echo 'reddit' | tr 'a-z' 'A-Z' # Change case from lowercase to uppercase
+> echo 'reddit' | tr [:lower:] [:upper:] # Equivalent to above
+REDDIT
+```
+
+### `tee`
+
+Read from standard input and write to both standard output and one or more files.
+
+```shell
+# This will write the JSON response to `response.json` as well as stdout
+> curl https://api.github.com/repos/google/zx | tee response.json
+{
+  "id": 364474335,
+  "name": "zx",
+  "full_name": "google/zx",
+  "visibility": "public",
+  "forks": 469,
+  "owner": {
+    "login": "google",
+    "id": 1342004,
+    ...
+  ...
+}
+> cat response.json
+{
+  "id": 364474335,
+  "name": "zx",
+  "full_name": "google/zx",
+  "visibility": "public",
+  "forks": 469,
+  "owner": {
+    "login": "google",
+    "id": 1342004,
+    ...
+  ...
+}
+
+# Useful options
+# -a, --append: Append to the given file(s), do not overwrite
+```
+
+### `cut`
+
+Remove sections from each line of files.
+
+```shell
+> cut -f 5 main.tsv # Output the fifth field from `main.tsv`
+
+# Custom delimiter
+> cut -d ":" -f 3- main.txt # Output the third through the last field from `main.txt`; Use `:` as delimiter
+> cut -d "," -f 2,3 ratings.csv # Output only the 2nd and 3rd fields from `ratings.csv`; Use `,` as delimiter
+> cut -d, -f 2,3 ratings.csv # Equivalent to above
+
+> echo "This is an example." | cut -c3- # Output the third through the last character of the input
+is is an example.
+
+> cut -c1-20 <file> # Output the first through the 20th character of _each line_ of file
+```
+
+### `seq`
+
+Print a sequence of numbers.
+
+```shell
+> seq 3 # Generate numbers upto 3
+1
+2
+3
+
+> seq -s " | " 7 # Use custom separator (default: `\n`)
+1 | 2 | 3 | 4 | 5 | 6 | 7
+
+> seq -s " " 10 14 # Generate numbers from 10 upto 14
+10 11 12 13 14
+
+> seq -s " " 10 2 14 # Skip every other number
+10 12 14
+
+> seq -s " " 10 -2 6 # Going backwards
+10 8 6
+
+> seq -w 7 12 # Equalize width by padding with leading zeroes
+07
+08
+09
+10
+11
+12
+
+> echo {0..9} # Alternative to `seq`
+0 1 2 3 4 5 6 7 8 9
+```
 
 ### System monitoring
 
 - `ps`: Report a snapshot of the current processes.
-  - `ps aux | grep nginx`: Search for 'nginx' in ps output.
+  - `ps aux | grep nginx`: Search for "nginx" in `ps` output.
 - `htop`: Interactive process viewer.
 - `top`: Display Linux processes.
 - `cat /proc/loadavg`: Load average.
@@ -222,12 +396,11 @@ Comment=pCloud Cloud Storage
 - `ip`: Show/Manipulate routing, network devices, interfaces and tunnels.
   - `ip addr`: Display IP addresses and property information.
 - `ss`: Investigate sockets.
-  - `ss -p`: See which apps are comsuming the Internet.
 
 ## Miscellaneous
 
 - Drop into a tty (tty3): `Ctrl + Alt + F3`
-- Move to different ttys: `Alt + Left/Right`
+- Move between different ttys: `Alt + Left/Right`
 - Mod keys:
   - Mod1: Left Alt
   - Mod3: Right Alt

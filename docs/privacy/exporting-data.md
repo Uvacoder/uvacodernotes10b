@@ -5,27 +5,24 @@ title: Exporting data
 
 ## IMDb
 
-- Export IMDb data to CSV:
-  - Log in > Your ratings > Overflow menu > Export
-
-## YouTube
-
-- [YouTube Subscription Manager](https://youtube.com/subscription_manager) - Export YouTube subscriptions to OPML. `deprecated`
+Log in > **Your ratings** > **Overflow menu** > **Export**
 
 ## Google
 
-- [Google Takeout](https://takeout.google.com/)
+[Google Takeout](https://takeout.google.com/)
+
+### YouTube
+
+[YouTube subscription manager](https://youtube.com/subscription_manager): Export YouTube subscriptions to OPML. `deprecated`
 
 ## Reddit
 
-- Export Reddit subscriptions to another account:
-  - Go to [reddit.com/subreddits](https://reddit.com/subreddits) or [reddit.com/subreddits/mine](https://reddit.com/subreddits/mine).
-  - Click on `multireddit of your subscriptions`.
-  - Save the link.
+- Go to [reddit.com/subreddits](https://reddit.com/subreddits).
+- Right click on "**multireddit of your subscriptions**", copy and save the link.
 
 ## Spotify
 
-- [Exportify](https://watsonbox.github.io/exportify/)
+[Exportify](https://watsonbox.github.io/exportify/)
 
 ## Pocket
 
@@ -34,4 +31,9 @@ title: Exporting data
 
 ## Facebook
 
-- [Download Facebook Information](https://www.facebook.com/dyi/)
+[Download Facebook Information](https://www.facebook.com/dyi/)
+
+## Netflix
+
+- Go to [netflix.com/YourAccount](https://www.netflix.com/YourAccount).
+- **Profile & Parental Controls** > **Viewing activity** > **Download all**

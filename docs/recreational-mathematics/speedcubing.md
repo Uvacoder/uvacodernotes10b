@@ -260,7 +260,3 @@ R U2 R U2 F2 R F2 L' U2 L U2 R2
 ### Speffz lettering scheme
 
 [![Speffz lettering scheme](https://www.speedsolving.com/wiki/images/4/49/Speffz.png)](https://www.speedsolving.com/wiki/index.php/Speffz)
-
-```
-
-```

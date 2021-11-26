@@ -14,6 +14,7 @@ cat <file> | sed '' # Equivalent to above
 ```shell
 sed 'p' <file> # Prints each line in file _twice_
 sed -n 'p' <file> # Suppress automatic printing; Print each line once
+sed 20q <file> # Print the first 20 lines of file
 ```
 
 ## Address ranges
@@ -79,3 +80,8 @@ sed -n 'N;s/\n/ /p' <file> # Equivalent to above
 ```shell
 sed -f script.sed <file> # Run script.sed on file
 ```
+
+## Links
+
+- [Chess implemented in sed](https://github.com/bolknote/SedChess)
+- [2048 implemented in sed](https://github.com/themattrix/sed2048)

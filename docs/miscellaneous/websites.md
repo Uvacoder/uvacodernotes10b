@@ -16,86 +16,49 @@ title: Websites
 
 ## Hacker News
 
-- See all posts from a specific domain:
-
-  ```
-  https://news.ycombinator.com/from?site=[domain]
-  https://news.ycombinator.com/from?site=stratechery.com
-  ```
+- See all posts from a specific domain: [news.ycombinator.com/from?site=stratechery.com](https://news.ycombinator.com/from?site=stratechery.com)
 
 ## Reddit
 
-- View posts from multiple subreddits:
-
-  ```
-  https://reddit.com/r/technology+wtf/
-  ```
-
-- Alternative to `reddit.com/r/pics`:
-
-  ```
-  pics.reddit.com
-  ```
-
-- Append `.json` at the end of a reddit url to get a JSON response:
-
-  ```
-  https://reddit.com/r/pics.json
-  ```
-
-- See all posts within a given domain:
-
-  ```
-  https://reddit.com/domain/[domain]
-  https://www.reddit.com/domain/news.ycombinator.com
-  ```
-
-- Create a new community:
-
-  ```
-  https://www.reddit.com/subreddits/create
-  ```
+- View posts from multiple subreddits: [reddit.com/r/technology+wtf/](https://reddit.com/r/technology+wtf/)
+- Alternative to `reddit.com/r/pics`: [pics.reddit.com](https://pics.reddit.com)
+- Append `.json` at the end of a reddit url to get a JSON response: [reddit.com/r/pics.json](https://reddit.com/r/pics.json)
+- See all posts from a specific domain: [https://www.reddit.com/domain/news.ycombinator.com](https://www.reddit.com/domain/news.ycombinator.com)
+- Create a new community: [reddit.com/subreddits/create](https://www.reddit.com/subreddits/create)
 
 ## Medium
 
-- RSS feed for Medium:
-
-  ```
-  https://medium.com/feed/@Medium
-  https://help.medium.com/hc/en-us/articles/214874118-RSS-feeds
-  ```
+- [RSS feed](https://help.medium.com/hc/en-us/articles/214874118-RSS-feeds) for Medium: [medium.com/feed/@Medium](https://medium.com/feed/@Medium)
 
 ## DuckDuckGo
 
 - [DuckDuckGo Bangs](https://duckduckgo.com/bang)
-
-  - `!in` - invidio.us
-  - `!yt` - YouTube
-  - `!g` - Google
-  - `!gh` - GitHub
-  - `!glab` - GitLab
-  - `!a2` - AlternativeTo.net
-  - `!csst` - CSS-Tricks
-  - `!mdn` - Mozilla Developer Network
-  - `!mad` - addons.mozilla.org
-  - `!django` - Django Docs
-  - `!die` - linux.die.net manpages
-  - `!ov` - Stack Overflow
-
+  - `!in`: invidio.us
+  - `!yt`: YouTube
+  - `!g`: Google
+  - `!gh`: GitHub
+  - `!glab`: GitLab
+  - `!a2`: AlternativeTo.net
+  - `!csst`: CSS-Tricks
+  - `!mdn`: Mozilla Developer Network
+  - `!mad`: addons.mozilla.org
+  - `!django`: Django Docs
+  - `!die`: linux.die.net manpages
+  - `!ov`: Stack Overflow
 - [DuckDuckGo Instant Answers](https://duck.co/ia)
-  - [random person name generator](https://duckduckgo.com/?q=random+person+name+generator&ia=answer)
-  - [color picker](https://duckduckgo.com/?q=color+picker&ia=answer)
-  - [#a326bf](https://duckduckgo.com/?q=%23a326bf&ia=answer)
-  - [shorten https://duckduckgo.com](https://duckduckgo.com/?q=shorten+https%3A%2F%2Fduckduckgo.com&ia=shortenedlink) - shortens a link.
-  - [expand https://bit.ly/2MQPwSt](https://duckduckgo.com/?q=expand+https%3A%2F%2Fbit.ly%2F2MQPwSt&ia=answer) - expands the shortened link to original link.
-  - [loan $100000 at 5% with 20% down paymeny for 10 years](https://duckduckgo.com/?q=loan+%24100000+at+5%25+with+20%25+down+paymeny+for+10+years&ia=answer) - calculate monthly payments on a loan.
-  - [recipe curry](https://duckduckgo.com/?q=recipe+curry) - finds recipes quickly.
-  - [is youtube down](https://duckduckgo.com/?q=is+youtube+down&ia=answer) - downtime checker.
-  - [xkcd 353](https://duckduckgo.com/?q=xkcd+353&ia=comics) - xkcd Comics.
-  - [password 30 strong](https://duckduckgo.com/?q=password+30+strong&ia=answer) - password generator.
-  - [figlet DUCKduckGO](https://duckduckgo.com/?q=figlet+DUCKduckGO&ia=answer) - figlet.
-  - [2048](https://duckduckgo.com/?q=2048&ia=answer) - 2048 game.
-  - [deal 7 cards](https://duckduckgo.com/?q=deal+7+cards&ia=answer)
+  - [random person](https://duckduckgo.com/?q=random+person+name+generator)
+  - [color picker](https://duckduckgo.com/?q=color+picker)
+  - [#a326bf](https://duckduckgo.com/?q=%23a326bf)
+  - [shorten https://duckduckgo.com](https://duckduckgo.com/?q=shorten+https%3A%2F%2Fduckduckgo.com): Shorten a link.
+  - [expand https://bit.ly/2MQPwSt](https://duckduckgo.com/?q=expand+https%3A%2F%2Fbit.ly%2F2MQPwSt): Expand the shortened link to original link.
+  - [loan $100000 at 5% with 20% down paymeny for 10 years](https://duckduckgo.com/?q=loan+%24100000+at+5%25+with+20%25+down+paymeny+for+10+years): Calculate monthly payments on a loan.
+  - [recipe curry](https://duckduckgo.com/?q=recipe+curry): Find recipes quickly.
+  - [is youtube down](https://duckduckgo.com/?q=is+youtube+down): Downtime checker.
+  - [xkcd 353](https://duckduckgo.com/?q=xkcd+353): xkcd comics.
+  - [password 30 strong](https://duckduckgo.com/?q=password+30+strong): Password generator.
+  - [figlet DUCKduckGO](https://duckduckgo.com/?q=figlet+DUCKduckGO): FIGlet.
+  - [2048](https://duckduckgo.com/?q=2048): 2048.
+  - [deal 7 cards](https://duckduckgo.com/?q=deal+7+cards)
 
 ## Google
 
@@ -108,4 +71,4 @@ title: Websites
 
 - [askew](https://www.google.com/search?q=askew)
 - [do a barrel roll](https://www.google.com/search?q=do+a+barrel+roll)
-- [wizard of oz](https://www.google.com/search?q=wizard+of+oz), click on the ruby slippers to the right.
+- [wizard of oz](https://www.google.com/search?q=wizard+of+oz)

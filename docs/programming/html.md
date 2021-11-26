@@ -3,17 +3,13 @@ id: html
 title: HTML
 ---
 
-## textarea
-
-Good:
+## `<textarea>`
 
 ```html
+<!-- Good -->
 <textarea></textarea>
-```
 
-Bad:
-
-```html
+<!-- Bad -->
 <textarea>
 </textarea>
 ```

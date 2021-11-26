@@ -7,7 +7,8 @@ Some things I like to do when setting up a new Linux machine.
 
 ### Map `CapsLock` to `Ctrl` and vice versa
 
-[[\*](https://www.emacswiki.org/emacs/MovingTheCtrlKey), [\*](http://wiki.c2.com/?RemapCapsLock)]
+- [Moving The Ctrl Key - EmacsWiki](https://www.emacswiki.org/emacs/MovingTheCtrlKey)
+- [Remap Caps Lock - WikiWikiWeb](http://wiki.c2.com/?RemapCapsLock)
 
 ```shell
 # On Debian
@@ -33,4 +34,4 @@ Pull up my [dotfiles](https://github.com/rsapkf/config/) and run the install scr
 - **Themes**: Dracula
 - Enable _Italics_ in Vim and tmux ([add terminfo](https://github.com/tmux/tmux/blob/2.1/FAQ#L355-L383) if needed).
 - Configure [Mutt](https://github.com/muttmua/muttt)/[NeoMutt](https://github.com/neomutt/neomutt).
-- Enable 'Single click to open files' in the default graphical file manager.
+- Enable "Single click to open files" in the default graphical file manager.

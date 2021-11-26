@@ -25,11 +25,11 @@ git commit --amend -m "New commit message" # Edit the last commit message
 - Get a list of the deleted files in history
 
   ```shell
-    ## without commit hashes
-    git log --diff-filter=D --summary | grep delete
+  ## without commit hashes
+  git log --diff-filter=D --summary | grep delete
 
-    ## with commit hashes
-    git log --diff-filter=D --summary | grep -E 'delete|^commit\s+\S+'
+  ## with commit hashes
+  git log --diff-filter=D --summary | grep -E 'delete|^commit\s+\S+'
   ```
 
 - Amend older or multiple commit messages

@@ -47,8 +47,8 @@ rsync [options] <username@host>:<source> <destination>
 ```shell
 rclone config # Enter an interactive configuration session.
 rclone listremotes # List remotes
-rclone ls remote:path [flags] # List objects in path
-rclone lsd remote:path [flags] # List directories in path
+rclone ls remote:path [options] # List objects in path
+rclone lsd remote:path [options] # List directories in path
 rclone copy <source> remote:<destination> # Copy source to the remote
 rclone sync -i <source> remote:<destination> # Sync source to the remote
 

@@ -7,96 +7,94 @@ title: Quotes
 
 ### Confucious
 
-> _We have two lives, and the second begins when we realize we only have one._
+> We have two lives, and the second begins when we realize we only have one.
 
-> _By three methods we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third by experience, which is the bitterest._
+> By three methods we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third by experience, which is the bitterest.
 
-> _If you make a mistake and do not correct it, this is called a mistake._
+> If you make a mistake and do not correct it, this is called a mistake.
 
-> _Real knowledge is to know the extent of one's ignorance._
+> Real knowledge is to know the extent of one's ignorance.
 
 ### Aristotle
 
-> _No great mind has ever existed without a touch of madness._
+> No great mind has ever existed without a touch of madness.
 
 ### Epicurus
 
-> _Death does not concern us, because as long as we exist, death is not here. And when it does come, we no longer exist._
+> Death does not concern us, because as long as we exist, death is not here. And when it does come, we no longer exist.
 
 ### Rashi
 
-> _Receive with simplicity everything that happens to you._
+> Receive with simplicity everything that happens to you.
 
 ### Blaise Pascal
 
-> _All of humanity's problems stem from man's inability to sit quietly in a room alone._
+> All of humanity's problems stem from man's inability to sit quietly in a room alone.
 
-> _If I had more time, I would have written a shorter letter._ [[\*](https://knowyourmeme.com/memes/if-i-had-more-time-i-would-have-written-a-shorter-letter)]
+> If I had more time, I would have written a shorter letter. [[\*](https://knowyourmeme.com/memes/if-i-had-more-time-i-would-have-written-a-shorter-letter)]
+
+### Pierre-Simon Laplace
+
+> I had no need of that hypothesis. [[\*](https://en.wikipedia.org/wiki/Pierre-SimonLaplace#Ihadnoneedofthathypothesis)]
 
 ---
 
 ## Novels, books, movies, TV shows
 
-### [Pale Blue Dot](https://en.wikipedia.org/wiki/Pale_Blue_Dot)
+### [Pale Blue Dot](https://en.wikipedia.org/wiki/PaleBlueDot)
 
-> _Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species lived there--on a mote of dust suspended in a sunbeam._
+> Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species lived there--on a mote of dust suspended in a sunbeam.
 >
-> _The Earth is a very small stage in a vast cosmic arena. Think of the rivers of blood spilled by all those generals and emperors so that, in glory and triumph, they could become the momentary masters of a fraction of a dot. Think of the endless cruelties visited by the inhabitants of one corner of this pixel on the scarcely distinguishable inhabitants of some other corner, how frequent their misunderstandings, how eager they are to kill one another, how fervent their hatreds._
+> The Earth is a very small stage in a vast cosmic arena. Think of the rivers of blood spilled by all those generals and emperors so that, in glory and triumph, they could become the momentary masters of a fraction of a dot. Think of the endless cruelties visited by the inhabitants of one corner of this pixel on the scarcely distinguishable inhabitants of some other corner, how frequent their misunderstandings, how eager they are to kill one another, how fervent their hatreds.
 >
-> _Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves._
+> Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
 >
-> _The Earth is the only world known so far to harbor life. There is nowhere else, at least in the near future, to which our species could migrate. Visit, yes. Settle, not yet. Like it or not, for the moment the Earth is where we make our stand._
+> The Earth is the only world known so far to harbor life. There is nowhere else, at least in the near future, to which our species could migrate. Visit, yes. Settle, not yet. Like it or not, for the moment the Earth is where we make our stand.
 >
-> _It has been said that astronomy is a humbling and character-building experience. There is perhaps no better demonstration of the folly of human conceits than this distant image of our tiny world. To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we've ever known._
+> It has been said that astronomy is a humbling and character-building experience. There is perhaps no better demonstration of the folly of human conceits than this distant image of our tiny world. To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we've ever known.
 
 ### Star Trek
 
-- [Where no man has gone before](https://en.wikipedia.org/wiki/Where_no_man_has_gone_before)
+- [Where no man has gone before](https://en.wikipedia.org/wiki/Wherenomanhasgonebefore)
 
-  > _Space: the final frontier. These are the voyages of the starship Enterprise. **Its five-year mission**: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no man has gone before!_
+  > Space: the final frontier. These are the voyages of the starship Enterprise. **Its five-year mission**: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no man has gone before!
 
-- In [Star Trek: The Next Generation](https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation)
-  > _Space: the final frontier. These are the voyages of the starship Enterprise. **Its continuing mission**: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no one has gone before!_
+- In [Star Trek: The Next Generation](https://en.wikipedia.org/wiki/StarTrek:TheNextGeneration)
+  > Space: the final frontier. These are the voyages of the starship Enterprise. **Its continuing mission**: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no one has gone before!
 
 #### Spock
 
-> _The needs of the many outweigh the needs of the few. Or the one._
+> The needs of the many outweigh the needs of the few. Or the one.
 
-> _Live Long and Prosper._ 🖖
+> Live Long and Prosper. 🖖
 
-> _You mistake my choice not to feel as a reflection of my not caring. Well, I assure you, the truth is precisely the opposite._
+> You mistake my choice not to feel as a reflection of my not caring. Well, I assure you, the truth is precisely the opposite.
 
 #### Jean-Luc Picard
 
-> _It is possible to commit no mistakes and still lose. That is not weakness, that is life._
+> It is possible to commit no mistakes and still lose. That is not weakness, that is life.
 
 ### Sherlock Holmes
 
 #### Sherlock Holmes
 
-> _When you eliminate the impossible, whatever remains, however improbable, must be the truth._
-
-### The Big Bang Theory
-
-#### Sheldon Cooper
-
-> _Bazinga!_
+> When you eliminate the impossible, whatever remains, however improbable, must be the truth.
 
 ### The Witcher
 
 #### Geralt of Rivia, The Last Wish
 
-> _...if I'm to choose between one evil and another, then I prefer not to choose at all._
+> ...if I'm to choose between one evil and another, then I prefer not to choose at all.
 
 ### Fullmetal Alchemist
 
-> _Humankind cannot gain something without first giving something in return. To obtain, something of equal value must be lost. This is Alchemy's First Law of Equivalent Exchange. In those days, we really believed that to be the world's one, and only, truth._
+> Humankind cannot gain something without first giving something in return. To obtain, something of equal value must be lost. This is Alchemy's First Law of Equivalent Exchange. In those days, we really believed that to be the world's one, and only, truth.
 
 ### BoJack Horseman
 
 #### Mr. Peanutbutter
 
-> _The universe is a cruel, uncaring void. The key to being happy isn't a search for meaning. It's to keep yourself busy with unimportant nonsense, and eventually you'll be dead._
+> The universe is a cruel, uncaring void. The key to being happy isn't a search for meaning. It's to keep yourself busy with unimportant nonsense, and eventually you'll be dead.
 
 ### Red vs. Blue
 
@@ -104,33 +102,41 @@ title: Quotes
 
 - In [Red vs. Blue S12E12 "The Reunion"](https://youtu.be/9pfGQ5msrrU?t=102)
 
-> _We've been tricked, we've been backstabbed and we've been quite possibly, bamboozled._
+> We've been tricked, we've been backstabbed and we've been quite possibly, bamboozled.
 
 ### The IT Crowd
 
 #### Maurice Moss
 
-> _I came here to drink milk and kick ass. And I've just finished my milk._
+> I came here to drink milk and kick ass. And I've just finished my milk.
+
+> I like being weird. Weird's all I've got. That and my sweet style.
+
+### Billy Madison
+
+#### Principal
+
+> Mr. Madison, what you've just said is one of the most insanely idiotic things I have ever heard. At no point in your rambling, incoherent response were you even close to anything that could be considered a rational thought. Everyone in this room is now dumber for having listened to it. I award you no points, and may God have mercy on your soul.
 
 ## Science
 
 ### Carl Sagan
 
-> _Somewhere, something incredible is waiting to be known._
+> Somewhere, something incredible is waiting to be known.
 
 ### Richard Feynman
 
-> _Study hard what interests you the most in the most undisciplined, irreverent and original manner possible._
+> Study hard what interests you the most in the most undisciplined, irreverent and original manner possible.
 
 ### Isaac Asimov
 
-> _People who think they know everything are a great annoyance to those of us who do._
+> People who think they know everything are a great annoyance to those of us who do.
 
-> _Violence is the last refuge of the incompetent._
+> Violence is the last refuge of the incompetent.
 
 ### Arthur C. Clarke
 
-> _I don’t believe in astrology; I’m a Sagittarius and we’re skeptical._
+> I don’t believe in astrology; I’m a Sagittarius and we’re skeptical.
 
 ---
 
@@ -138,36 +144,138 @@ title: Quotes
 
 ### Douglas Adams
 
-- In [The Long Dark Tea-Time of the Soul, Dirk Gently #2](https://en.wikipedia.org/wiki/The_Long_Dark_Tea-Time_of_the_Soul)
+- In [The Long Dark Tea-Time of the Soul, Dirk Gently #2](https://en.wikipedia.org/wiki/TheLongDarkTea-TimeoftheSoul)
 
-> _I may not have gone where I intended to go, but I think I have ended up where I needed to be._
+> I may not have gone where I intended to go, but I think I have ended up where I needed to be.
 
 ### Mark Twain
 
-> _It is better to keep your mouth closed and let people think you are a fool than to open it and remove all doubt._
+> It is better to keep your mouth closed and let people think you are a fool than to open it and remove all doubt.
 
 ### Edgar Allan Poe
 
-> _Years of love have been forgot, In the hatred of a minute._
+> Years of love have been forgot, In the hatred of a minute.
 
 ### Ernest Hemingway
 
-> _There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self._
+> There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self.
 
 ### James Randi
 
-> _I've said it before: there are two sorts of atheists. One sort claims that there is no deity, the other claims that there is no evidence that proves the existence of a deity; I belong to the latter group, because if I were to claim that no god exists, I would have to produce evidence to establish that claim, and I cannot. Religious persons have by far the easier position; they say they believe in a deity because that's their preference, and they've read it in a book. That's their right._
+> I've said it before: there are two sorts of atheists. One sort claims that there is no deity, the other claims that there is no evidence that proves the existence of a deity; I belong to the latter group, because if I were to claim that no god exists, I would have to produce evidence to establish that claim, and I cannot. Religious persons have by far the easier position; they say they believe in a deity because that's their preference, and they've read it in a book. That's their right.
 
 ### Rob Siltanen
 
-> _Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They're not fond of rules. And they have no respect for the status quo. You can quote them, disagree with them, glorify or vilify them. About the only thing you can't do is ignore them. Because they change things. They push the human race forward. And while some may see them as the crazy ones, we see genius. Because the people who are crazy enough to think they can change the world, are the ones who do._
+> Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They're not fond of rules. And they have no respect for the status quo. You can quote them, disagree with them, glorify or vilify them. About the only thing you can't do is ignore them. Because they change things. They push the human race forward. And while some may see them as the crazy ones, we see genius. Because the people who are crazy enough to think they can change the world, are the ones who do.
 
 ### Michael Stevens (Vsauce)
 
-- In [LET'S PLAY SUPER MARIO QUADRATICS - D!NG](https://youtu.be/ewAHYVzMobw?t=785)
-
-> _I'm gonna do what's called a pro gamer move._
+> I'm gonna do what's called a pro gamer move. [[\*](https://youtu.be/ewAHYVzMobw?t=785)]
 
 ### TheReportOfTheWeek
 
-> _My disappointment is immeasurable, and my day is ruined._ [[\*](https://youtu.be/5d5NJgO38AE?t=366)]
+> My disappointment is immeasurable, and my day is ruined. [[\*](https://youtu.be/5d5NJgO38AE?t=366)]
+
+---
+
+## Catchphases
+
+### Back to the future
+
+#### Dr. Emmet Brown
+
+> Great Scott!
+
+> 1.21 GIGAWATTS!!!!!!
+
+### Star Trek
+
+#### The Borg
+
+> Resistance is futile.
+
+### Futurama
+
+#### Professor Fansworth
+
+> Good news, everyone!
+
+#### Bender
+
+> Bite my shiny metal a\*\*!
+
+#### Hermes Conrad
+
+> Sweet lamprey of Santa Fe!
+
+> Cursed bacteria of Liberia!
+
+> Great bonda of Uganda!
+
+> Great cow of Moscow!
+
+> Sacred boa of West and Eastern Samoa!
+
+> Sacred hog of Prague!
+
+> Sweet bongo of the Congo!
+
+> Sweet candelabra of Le Havre, LaBarbara!
+
+> Sweet coincidence of Port-au-Prince
+
+> Sweet ego of Montego!
+
+> Sweet freak of Mozambique!
+
+> Sweet ghost of Babylon!"
+
+> Sweet giant anteater of Santa Anita!
+
+> Sweet guinea pig of Winnipeg!
+
+> Sweet honey bee of infinity!
+
+> Sweet kookaburra of Edinburgh!
+
+> Sweet lion of Zion!
+
+> Sweet llamas of the Bahamas!
+
+> Sweet manatee of Galilee!
+
+> Sweet orca of Mallorca!
+
+> Sweet orgy of Georgia!
+
+> Sweet pyro of Cairo!
+
+> Sweet reawakenin' of me, a Jamaican-in!
+
+> Sweet robot swan of Botswana!
+
+> Sweet squid of Madrid!
+
+> Sweet three-toed sloth of the ice planet Hoth!
+
+> Sweet toke of Ocracoke!
+
+> Sweet topology of cosmology!
+
+> Sweet yeti of the Serengeti!
+
+> Sweet fireball of Montreal!
+
+> Sweet gorilla of Manila!
+
+> Sweet something... of... someplace...
+
+### Harry Potter
+
+> Merlin's beard!
+
+### The Big Bang Theory
+
+#### Sheldon Cooper
+
+> Bazinga!

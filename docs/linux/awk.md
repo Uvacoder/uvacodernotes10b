@@ -47,15 +47,14 @@ awk -F: '{print $1;}' /etc/passwd # Equivalent to above
 awk 'BEGIN { FS=":"; print "User\t\tUID\t\tGID\t\tHome\t\tShell\n--------------"; }
 {print $1,"\t\t",$3,"\t\t",$4,"\t\t",$6,"\t\t",$7;}
 END { print "---------\nFile Complete" }' /etc/passwd
-
 ```
 
 ## Field searching
 
 ```shell
 awk '$2 ~ /^bin/' <file> # Print lines where the second field starts with `bin`
-awk '$2 !~ /^sa/' <file> # The second field does _not_ start with `bin`
-awk '$2 !~ /^sa/ && $1 < 5' <file> # The second field does not start with `bin` _and_ the value of the first column is less than 5
+awk '$2 !~ /^bin/' <file> # The second field does _not_ start with `bin`
+awk '$2 !~ /^bin/ && $1 < 5' <file> # The second field does not start with `bin` _and_ the value of the first column is less than 5
 ```
 
 ## Scripting

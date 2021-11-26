@@ -15,7 +15,10 @@ module.exports = {
         'linux/grep',
         'linux/sed',
         'linux/awk',
+        'linux/jq',
         'linux/find',
+        'linux/xargs',
+        'linux/fzf',
         'linux/curl',
         'linux/wget',
         'linux/ssh',
@@ -45,10 +48,24 @@ module.exports = {
       type: 'category',
       label: 'Recreational mathematics',
       items: [
-        'mathematics/speedcubing',
-        'mathematics/mathemagics',
-        'mathematics/mathematics',
-        'mathematics/mnemonics',
+        'recreational-mathematics/speedcubing',
+        'recreational-mathematics/mathemagics',
+        'recreational-mathematics/mnemonics',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Mathematics',
+      items: [
+        {
+          type: 'category',
+          label: 'Calculus',
+          items: [
+            'mathematics/calculus/limits',
+            'mathematics/calculus/differential-calculus',
+            'mathematics/calculus/integral-calculus',
+          ],
+        },
       ],
     },
     {
