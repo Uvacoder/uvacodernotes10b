@@ -137,13 +137,14 @@ Icon=/opt/firefox_dev/firefox/browser/chrome/icons/default/default128.png
 Type=Application
 Categories=Application;Network;X-Developer;
 Comment=Firefox Developer Edition Web Browser.
-```
+
+````
 
 ## Redirection
 
 Standard I/O streams:
 
-| stream | Description     | File descriptor |
+| Stream | Description     | File descriptor |
 | ------ | --------------- | --------------- |
 | stdin  | Standard input  | 0               |
 | stdout | Standard output | 1               |
@@ -155,7 +156,7 @@ Standard I/O streams:
 
 ```shell
 $ command < file.txt # Executing `command` with `file.txt` as the source of input
-```
+````
 
 The output of one command can be redirected as the input for another with the `|` (pipe) character.
 
@@ -264,12 +265,11 @@ $ ls | xargs du -sk 2> /dev/null
 - `shred`: Overwrite the specified file(s) repeatedly, in order to make it harder for even very expensive hardware probing to recover the data.
 - `mount`: Mount a filesystem.
 - `clear`: Clear the terminal screen.
-- `locate`: Find files by name.
-- `updatedb`: Creates or updates a database used by locate.
-- `find`: Search for files in a directory hierarchy.
 - `file`: Determine file type.
 - `basename`: Given a pathname, returns the basename of a file or directory.
 - `tree`: List contents of directories in a tree-like format.
+- `xev`: Print contents of X events.
+- `yes`: Output a string repeatedly until killed.
 
 ### `tr`
 
@@ -380,7 +380,7 @@ Print a sequence of numbers.
 - `uptime`: Tell how long the system has been running.
 - `w`: See who is logged on and what they are doing.
 - `acpi`: Shows battery status and other ACPI information.
-  - (upower -i \`upower -e | grep 'BAT'\`) - Battery information.
+  - (upower -i \`upower -e | grep 'BAT'\`): Battery information.
 - `pidof [program]`: Find the process ID of a running program.
 
 ### System info

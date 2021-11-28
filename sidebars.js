@@ -92,4 +92,4 @@ module.exports = {
       items: ['books/python-tricks/introduction', 'books/python-tricks/notes'],
     },
   ],
-};
+}

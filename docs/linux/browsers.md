@@ -23,7 +23,7 @@ title: Browsers
 
 ### `about:config` settings
 
-- `browser.bookmarks.openInTabClosesMenu`: true -> false
+- `browser.bookmarks.openInTabClosesMenu`: true - false
 - `browser.bookmarks.showMobileBookmarks`: true -> false
 - `browser.tabs.loadBookmarksInTabs`: false -> true
 - `browser.bookmarks.autoExportHTML`: false -> true
@@ -40,12 +40,12 @@ title: Browsers
 [Firefox keyboard shortcuts](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly)
 
 - `Home`: Move to the top of the page. I recommend using Vimium.
-- `<C-l>`: Highlight the url bar.
-- `<C-Shift-o>`: Open bookmark manager.
-- `<C-Shift-b>`: Toggle bookmarks toolbar.
-- `<C-b>`: Toggle bookmarks sidebar.
-- `<C-Shift-a>`: Open addons manager.
-- `<C-Shift-Del>`: Clear recent history.
-- `<C-Shift-d>`: Bookmark all open tabs in a folder.
-- `<C-Shift-r>` / `<C-F5>`: Reload the tab and clear the cache.
-- `<C-Shift-t`: Undo close tab.
+- `Ctrl-l`: Highlight the url bar.
+- `Ctrl-Shift-o`: Open bookmark manager.
+- `Ctrl-Shift-b`: Toggle bookmarks toolbar.
+- `Ctrl-b`: Toggle bookmarks sidebar.
+- `Ctrl-Shift-a`: Open addons manager.
+- `Ctrl-Shift-Del`: Clear recent history.
+- `Ctrl-Shift-d`: Bookmark all open tabs in a folder.
+- `Ctrl-Shift-r` / `Ctrl-F5`: Reload the tab and clear the cache.
+- `Ctrl-Shift-t`: Undo close tab.

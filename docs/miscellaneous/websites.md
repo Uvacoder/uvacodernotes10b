@@ -3,7 +3,7 @@ id: websites
 title: Websites
 ---
 
-## Onion links to popular services:
+## Onion links to popular services
 
 - [Keybase](http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion/)
 - [Invidious](http://kgg2m7yk5aybusll.onion/)/[Invidious-alt](http://axqzx4s6s54s32yentfqojs3x5i7faxza6xo3ehd4bzzsg2ii4fv2iid.onion/)
@@ -51,7 +51,7 @@ title: Websites
   - [#a326bf](https://duckduckgo.com/?q=%23a326bf)
   - [shorten https://duckduckgo.com](https://duckduckgo.com/?q=shorten+https%3A%2F%2Fduckduckgo.com): Shorten a link.
   - [expand https://bit.ly/2MQPwSt](https://duckduckgo.com/?q=expand+https%3A%2F%2Fbit.ly%2F2MQPwSt): Expand the shortened link to original link.
-  - [loan $100000 at 5% with 20% down paymeny for 10 years](https://duckduckgo.com/?q=loan+%24100000+at+5%25+with+20%25+down+paymeny+for+10+years): Calculate monthly payments on a loan.
+  - [loan \$100000 at 5% with 20% down paymeny for 10 years](https://duckduckgo.com/?q=loan+%24100000+at+5%25+with+20%25+down+paymeny+for+10+years): Calculate monthly payments on a loan.
   - [recipe curry](https://duckduckgo.com/?q=recipe+curry): Find recipes quickly.
   - [is youtube down](https://duckduckgo.com/?q=is+youtube+down): Downtime checker.
   - [xkcd 353](https://duckduckgo.com/?q=xkcd+353): xkcd comics.

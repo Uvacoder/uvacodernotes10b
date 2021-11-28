@@ -3,10 +3,41 @@ id: vim
 title: Vim
 ---
 
+[How to exit Vim?](https://stackoverflow.com/a/11828573)
+
+## Basic commands
+
+- `h`, `l`: Move left and right.
+- `j`, `k`: Move up and down.
+- `g`, `G`, `<n>gg`: First line, last line, nth line.
+- `H`/`M`/`L`: Top/Middle/Bottom of the screen.
+- `zz`, `zt`, `zb`: Position the screen with the cursor at the middle/top/bottom.
+- `M`, `H`, `L`: Position the cursor at the middle/top/bottom.
+- `Ctrl-y`, `Ctrl-e`: Scroll one line.
+- `Ctrl-u`, `Ctrl-d`: Scroll half-page.
+- `Ctrl-b`, `Ctrl-f`: Scroll full-page.
+- `0`/`$`: Beginning/End of line.
+- `^`/`g_`: First/Last character of line.
+- `g;`: Last edited position.
+- `'.`: Last edited line.
+- `{`/`}`: Previous/Next paragraph.
+- `<N>|`: Column N.
+- `n%`: Move to a file by percent of file.
+- `e`/`E`, `b`/`B`, `w`/`W`: Word-wise navigation.
+- `m`/`M`: Marks.
+- `*`/`#`: Search for the word under the cursor forward/backward.
+- `%`: Find the match of a quote, parenthesis, bracket, or brace under the cursor.
+- `I`: Insert at the beginning of line.
+- `A`: Append to the end of line.
+- `o`/`O`: Open a new line after/before the current.
+- `v`/`V`/`Ctrl-v`: Visual mode (to select text!)
+- `r`/`R`: Replace text.
+- `C`: Change remaining part of line.
+
 ## Enable _italics_ in Vim
 
-- add `highlight Comment cterm=italic` to `~/.vimrc` (**after the colorscheme declaration**).
-- If using [nanotech/jellybeans.vim](https://github.com/nanotech/jellybeans.vim) colorscheme, make sure to add `let g:jellybeans_use_term_italics = 1` too.
+- Add `highlight Comment cterm=italic` to `~/.vimrc` (**after the colorscheme declaration**).
+- If using [jellybeans.vim](https://github.com/nanotech/jellybeans.vim) colorscheme, make sure to add `let g:jellybeans_use_term_italics = 1` too.
 
 ## Buffers
 
@@ -29,7 +60,21 @@ In normal mode:
 
 - `gt`: Go to next tab.
 - `gT`: Go to previous tab.
-- `{i}gt`: Go to tab in position `i`.
+- `<i>gt`: Go to tab in position `i`.
+
+## Splits
+
+- `:split`/`:sp`: Horizontal split.
+  - `:10sp`: 10 lines high horizontal split.
+  - `Ctrl-w _`: Maximize a horizontal split.
+  - `Ctrl-w =`: Equalize splits.
+  - `:resize +5`/`:res +5`: Increase a split height by 5 lines.
+- `:vsplit`/`:vs`: Vertical split.
+  - `Ctrl-w |`: Maximize a vertical split.
+  - `Ctrl-w =`: Equalize splits.
+  - `:vertical resize +5`/`:vert res +5`: Increase a split height by 5 lines.
+- `Ctrl-w c`: Close a split.
+- `Ctrl-w R`: Swap splits.
 
 ## Command mode
 
@@ -47,24 +92,15 @@ In normal mode:
 - `:g/^@/m$`: Move all lines starting with `@` to the end of the document.
 - `:g/^$/d`: Delete all blank lines in a document.
 
-## Splits
-
-- `:split` / `:sp`: Horizontal split.
-  - `:10sp`: 10 lines high horizontal split.
-  - `<ctrl> w _`: Maximize a horizontal split.
-  - `<ctrl> w =`: Equalize splits.
-  - `:resize +5` / `:res +5`: Increase a split height by 5 lines.
-- `:vsplit` / `:vs`: Vertical split.
-  - `<ctrl> w |`: Maximize a vertical split.
-  - `<ctrl> w =`: Equalize splits.
-  - `:vertical resize +5` / `:vert res +5`: Increase a split height by 5 lines.
-- `<ctrl> w c`: Close a split.
-- `<ctrl> w R`: Swap splits.
-
 ## Miscellaneous
 
-- `:set wrap` / `:set nowrap`
-- Default `leader` is `\` (I map to it to `<space>`/`,`)
-- `<CR>` (aka carriage/cartridge return) means `Enter`/`Return`.
-- Alternative to `<ESC>`: `<C-[>` (I map `<ESC>` to `jj`/`jk`)
-- `:smile`
+- `:set wrap`/`:set nowrap`
+- Default `leader` is `\` (Recommended remappings: `<space>`/`,`)
+- `<CR>` (aka carriage return/cartridge return) means `Enter`/`Return`.
+- Alternative to `ESC`: `Ctrl-c`, `Ctrl-[` (Recommended remappings for `ESC`: `jk`/`jj`)
+- `:smile` (Doesn't work on Neovim)
+- `:help 42`
+
+## Links
+
+- [Nvim documentation: vim_diff](https://neovim.io/doc/user/vim_diff.html)

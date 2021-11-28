@@ -26,9 +26,9 @@ find . -name '*.json' | xargs grep 'user'
 
 ### Separator problem
 
-Line-oriented utilities will work with `xargs` as long as they do not contain spaces in them. But since `xargs` is not line-oriented (by default, it separates on newlines and blanks within lines), substrings with blanks must be single- or double-quoted.
+Line-oriented utilities will work with `xargs` as long as records do not contain spaces in them. But since `xargs` is not line-oriented (by default, it separates on newlines and blanks within lines), it may treat a single record as separate.
 
-If filenames do contain spaces, you must use `NUL` as the record separator. This can be set using
+If records do contain spaces, you must use [`NUL`](https://en.wikipedia.org/wiki/Null_character) as the record separator. This can be set using
 
 - `-0` for Perl,
 - `-0` for `locate`,

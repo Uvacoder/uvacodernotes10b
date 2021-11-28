@@ -60,6 +60,7 @@ title: Quotes
   > Space: the final frontier. These are the voyages of the starship Enterprise. **Its five-year mission**: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no man has gone before!
 
 - In [Star Trek: The Next Generation](https://en.wikipedia.org/wiki/StarTrek:TheNextGeneration)
+
   > Space: the final frontier. These are the voyages of the starship Enterprise. **Its continuing mission**: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no one has gone before!
 
 #### Spock
@@ -102,7 +103,7 @@ title: Quotes
 
 - In [Red vs. Blue S12E12 "The Reunion"](https://youtu.be/9pfGQ5msrrU?t=102)
 
-> We've been tricked, we've been backstabbed and we've been quite possibly, bamboozled.
+  > We've been tricked, we've been backstabbed and we've been quite possibly, bamboozled.
 
 ### The IT Crowd
 
@@ -146,7 +147,7 @@ title: Quotes
 
 - In [The Long Dark Tea-Time of the Soul, Dirk Gently #2](https://en.wikipedia.org/wiki/TheLongDarkTea-TimeoftheSoul)
 
-> I may not have gone where I intended to go, but I think I have ended up where I needed to be.
+  > I may not have gone where I intended to go, but I think I have ended up where I needed to be.
 
 ### Mark Twain
 
@@ -176,11 +177,17 @@ title: Quotes
 
 > My disappointment is immeasurable, and my day is ruined. [[\*](https://youtu.be/5d5NJgO38AE?t=366)]
 
+### Ward Cunningham
+
+- [Cunnigham's Law](https://en.wikipedia.org/wiki/Ward_Cunningham#%22Cunningham's_Law%22)
+
+  > The best way to get the right answer on the Internet is not to ask a question; it's to post the wrong answer.
+
 ---
 
-## Catchphases
+## Catchphrases
 
-### Back to the future
+### Back to the Future
 
 #### Dr. Emmet Brown
 
@@ -228,7 +235,7 @@ title: Quotes
 
 > Sweet freak of Mozambique!
 
-> Sweet ghost of Babylon!"
+> Sweet ghost of Babylon!
 
 > Sweet giant anteater of Santa Anita!
 

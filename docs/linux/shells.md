@@ -6,7 +6,7 @@ title: Shells
 ## bash
 
 ```shell
-<C-r> # Reverse-i-search
+<C-r> # reverse-i-search
 set -o vi # Enable vi mode in Bash
 ```
 

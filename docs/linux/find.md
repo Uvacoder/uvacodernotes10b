@@ -145,6 +145,12 @@ rg: /usr/bin/rg /usr/share/man/man1/rg.1.gz
 
 ## `fd`
 
+:::info
+
+[oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/)'s [common-aliases](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/common-aliases/common-aliases.plugin.zsh) plugin aliases `fd` to `find . -type d -name`. To avoid the clash between this alias and `fd`, put `unalias fd` or `alias fd='\fd'` at the end of your `.zshrc`.
+
+:::
+
 ### Basic usage
 
 ```shell

@@ -6,37 +6,46 @@ title: tmux
 ## Configuration
 
 ```shell title="~/.tmux.conf"
+
 # Default prefix is `Ctrl+b`
+
 # Remap prefix to `Ctrl+a`
+
 set-option -g prefix C-a
 unbind-key C-b
 bind-key C-a send-prefix
 
 # Reload tmux config
+
 bind r source-file ~/.tmux.conf \; display-message '~/.tmux.conf sourced!'
 
 # Use Alt-arrow keys without prefix key to switch panes
+
 bind -n M-Left select-pane -L
 bind -n M-Right select-pane -R
 bind -n M-Up select-pane -U
 bind -n M-Down select-pane -D
 
 # Vim style pane selection
+
 bind h select-pane -L
 bind j select-pane -D
 bind k select-pane -U
 bind l select-pane -R
 
 # Use Alt-vim keys without prefix key to switch panes
+
 bind -n M-h select-pane -L
 bind -n M-j select-pane -D
 bind -n M-k select-pane -U
 bind -n M-l select-pane -R
 
 # Use `|` and `-` to split pane horizontally and vertically, respectively
+
 bind-key | split-window -h
 bind-key - split-window -v
-```
+
+````
 
 ## Key bindings
 
@@ -64,7 +73,7 @@ bind-key - split-window -v
 <prefix> t # Show the time
 <prefix> [ # Enter copy mode to copy text or view the history
 <prefix> ] # Paste the most recently copied buffer of text
-```
+````
 
 ## Miscellaneous
 

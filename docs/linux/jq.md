@@ -160,20 +160,21 @@ Parallel Universe Box
 
 ### Other filters
 
-If two filters are separated by a comma (**`,`**), then the same input will be fed into both and the two filters' output value streams will be concatenated in order from left to right.
-
-```shell
-> curl <API> | jq '.name, .features.profession'
-Professor Fansworth
-CEO, Planet Express
-```
-
 Similar to Unix pipelines, **`|`** combines two filters by feeding the output(s) of the one on the left into the input of the one on the right. It would mean that `.key.subkey.subsubkey` is the same as `.key | .subkey | .subsubkey`.
 
 ```shell
 > curl <API> | jq '.[] | .name'
 Professor Fansworth
 Hermes Conrad
+...
+```
+
+If two filters are separated by a comma (**`,`**), then the same input will be fed into both and the two filters' output value streams will be concatenated in order from left to right.
+
+```shell
+> curl <API> | jq '.[0] | .name, .features.profession'
+Professor Fansworth
+CEO, Planet Express
 ```
 
 Parenthesis work as a grouping operator.

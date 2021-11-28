@@ -1,5 +1,5 @@
-const math = require('remark-math');
-const katex = require('rehype-katex');
+const math = require('remark-math')
+const katex = require('rehype-katex')
 
 module.exports = {
   title: '[rsapkf/73]',
@@ -9,7 +9,6 @@ module.exports = {
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'rsapkf',
-  projectName: 'notes',
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',
@@ -20,7 +19,7 @@ module.exports = {
       title: '[rsapkf/73]',
       hideOnScroll: true,
       logo: {
-        alt: 'notes logo',
+        alt: 'Logo',
         src: 'img/undraw_Notebook.svg',
       },
       items: [
@@ -202,4 +201,4 @@ module.exports = {
       crossorigin: 'anonymous',
     },
   ],
-};
+}

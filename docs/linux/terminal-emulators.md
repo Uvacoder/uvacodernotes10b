@@ -8,4 +8,3 @@ title: Terminal emulators
 ## Alacritty
 
 ## st
-

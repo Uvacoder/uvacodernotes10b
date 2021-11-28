@@ -10,6 +10,5 @@ title: HTML
 <textarea></textarea>
 
 <!-- Bad -->
-<textarea>
-</textarea>
+<textarea></textarea>
 ```
