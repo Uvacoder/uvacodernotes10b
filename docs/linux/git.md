@@ -69,34 +69,28 @@ git commit --amend -m "New commit message" # Edit the last commit message
 
 - Working with multiple GitHub accounts with SSH [[\*](https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574)]
 
-  1. [Create a new SSH key](./ssh) and add it to GitHub account #2. Save the private key file as something like `id_rsa_2`.
+  - [Create a new SSH key](./ssh) and add it to GitHub account #2. Save the private key file as something like `id_rsa_2`.
 
-  2. Update the SSH config:
+  - Update the SSH config:
 
-     ```\ title="~/.ssh/config"
+    ```shell title=".ssh/config"
+    # Default GitHub
+    Host github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa
 
-     # Default GitHub
+    # GitHub account #2
+    Host github-alt
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa_2
+    ```
 
-     Host github.com
-     HostName github.com
-     User git
-     IdentityFile ~/.ssh/id_rsa
+  - When pushing to GitHub account #2, change the remote to reflect the new host:
 
-     # GitHub account #2
-
-     Host github-alt
-     HostName github.com
-     User git
-     IdentityFile ~/.ssh/id_rsa_2
-
-     ```
-
-     ```
-
-  3. When pushing to GitHub account #2, change the remote to reflect the new host:
-
-     ```shell
-     # git remote add origin git@github.com:username/repository.git
-     git remote add origin git@github-alt:username/repository.git
-     git push origin main
-     ```
+    ```shell
+    # git remote add origin git@github.com:username/repository.git
+    git remote add origin git@github-alt:username/repository.git
+    git push origin main
+    ```

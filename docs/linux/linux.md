@@ -137,8 +137,7 @@ Icon=/opt/firefox_dev/firefox/browser/chrome/icons/default/default128.png
 Type=Application
 Categories=Application;Network;X-Developer;
 Comment=Firefox Developer Edition Web Browser.
-
-````
+```
 
 ## Redirection
 
@@ -156,7 +155,7 @@ Standard I/O streams:
 
 ```shell
 $ command < file.txt # Executing `command` with `file.txt` as the source of input
-````
+```
 
 The output of one command can be redirected as the input for another with the `|` (pipe) character.
 

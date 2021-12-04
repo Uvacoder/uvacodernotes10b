@@ -95,10 +95,10 @@ In normal mode:
 ## Miscellaneous
 
 - `:set wrap`/`:set nowrap`
-- Default `leader` is `\` (Recommended remappings: `<space>`/`,`)
+- Default `leader` is `\` (recommended remappings: `<space>`/`,`).
 - `<CR>` (aka carriage return/cartridge return) means `Enter`/`Return`.
-- Alternative to `ESC`: `Ctrl-c`, `Ctrl-[` (Recommended remappings for `ESC`: `jk`/`jj`)
-- `:smile` (Doesn't work on Neovim)
+- Alternative to `ESC`: `Ctrl-c`, `Ctrl-[` (recommended remappings for `ESC`: `jk`/`jj`).
+- `:smile` (doesn't work on Neovim)
 - `:help 42`
 
 ## Links

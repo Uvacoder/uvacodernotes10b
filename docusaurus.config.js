@@ -1,5 +1,5 @@
-const math = require('remark-math')
-const katex = require('rehype-katex')
+const math = require('remark-math');
+const katex = require('rehype-katex');
 
 module.exports = {
   title: '[rsapkf/73]',
@@ -60,7 +60,7 @@ module.exports = {
             },
             {
               label: 'CFOP algs',
-              href: 'https://github.com/rsapkf/rupiks/',
+              href: 'https://github.com/rsapkf/20/',
             },
           ],
         },
@@ -201,4 +201,4 @@ module.exports = {
       crossorigin: 'anonymous',
     },
   ],
-}
+};

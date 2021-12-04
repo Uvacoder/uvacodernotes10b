@@ -16,21 +16,16 @@ Paste the selected **files and directories** onto the command-line.
 By default, `fzf` uses `find` to search for files. This can be re-configured by setting `FZF_CTRL_T_COMMAND` in `.bashrc`/`.zshrc`:
 
 ```shell title="~/.zshrc"
-
 # Set fd as the default source for fzf
-
 export FZF_DEFAULT_COMMAND='fd -type f --follow --hidden --exclude .git'
 
 # Apply the command to CTRL-T as well
-
 export FZF_CTRL_T_COMMAND="\$FZF_DEFAULT_COMMAND"
 
 # Preview contents of files
-
 export FZF_CTRL_T_OPTS="--preview '(highlight -O ansi -l {} 2> /dev/null || cat {} || tree -C {}) 2> /dev/null | head -200'"
 
 # Set color scheme to Dracula
-
 export FZF_DEFAULT_OPTS=\$FZF_DEFAULT_OPTS'
 --color=dark
 --color=fg:-1,bg:-1,hl:#5fff87,fg+:-1,bg+:-1,hl+:#ffaf5f
@@ -38,10 +33,8 @@ export FZF_DEFAULT_OPTS=\$FZF_DEFAULT_OPTS'
 '
 
 # Start the finder in a tmux split pane:
-
 export FZF_TMUX=1
-
-````
+```
 
 ### **`Ctrl-r`**
 
@@ -59,7 +52,7 @@ export FZF_ALT_C_COMMAND="fd -t d"
 
 # Preview files
 export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -200'"
-````
+```
 
 ### Using the finder
 
