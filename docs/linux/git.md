@@ -3,6 +3,36 @@ id: git
 title: Git
 ---
 
+## Basics
+
+```shell
+git config # Set user-specific configuration values like email, username, editor, etc
+git clone # Clone a repository into a new directory
+git init # Create an empty Git repository
+
+git add # Add files for staging
+git rm # Remove files from the working tree and from the index
+git status # Show changes staged for next commit
+git diff # Show changes between commits, commit and working tree, etc
+git show # Show information about any git object
+git log # Show commit logs
+git bisect # Use binary search to find the commit that introduced a bug
+
+git commit # Record changes to the repository
+git branch # List, create, or delete branches
+git checkout # Switch to another branch
+git merge # Join two or more branches together
+git rebase # Reapply commits on top of another base tip
+git reset # Reset current HEAD to the specified state
+git stash # Stash the changes in a dirty working directory away
+git tag # Create, list, delete or verify a tag object signed with GPG
+
+git remote # View all remote
+git fetch # Fetch all objects from the remote repository that don’t currently reside in the local working directory
+git pull # Merge all the changes present in the remote repository to the local working directory
+git push # Update remote with committed changes
+```
+
 ## Useful options
 
 ```shell
@@ -58,6 +88,14 @@ git commit --amend -m "New commit message" # Edit the last commit message
 
   ```shell
   git reset $(git commit-tree HEAD^{tree} -m "A new start")
+  ```
+
+- See the diff for a commit [[\*](https://stackoverflow.com/a/17563864)]
+
+  ```shell
+  git show <commit> # or one of these
+  git show --color --pretty=format:%b <commit>
+  git diff-tree -p <commit>
   ```
 
 - Print a leaderboard of authors based on number of commits in a repository
