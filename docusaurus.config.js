@@ -7,7 +7,7 @@ module.exports = {
   tagline: "@rsapkf's notes.",
   url: 'https://rsapkf-notes.netlify.app',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
   organizationName: 'rsapkf',
   themeConfig: {
     colorMode: {
