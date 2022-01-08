@@ -28,7 +28,7 @@ gpg --gen-revoke --output revoke.asc <user ID>
 gpg --list-secret-keys
 gpg --list-key # Equivalent to above
 gpg -k # Equivalent to above
-gpg --list-secret-keys --keyid-format=long # List the form form of the keys
+gpg --list-secret-keys --keyid-format=long # List the long form of the keys
 ```
 
 ### Export a public key

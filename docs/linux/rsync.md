@@ -3,7 +3,7 @@ id: rsync
 title: rsync
 ---
 
-## rsync
+## `rsync`
 
 ```shell
 rsync -r dir1/ dir2
@@ -42,7 +42,7 @@ rsync [options] <source> <username@host>:<destination>
 rsync [options] <username@host>:<source> <destination>
 ```
 
-## rclone
+## `rclone`
 
 ```shell
 rclone config # Enter an interactive configuration session.

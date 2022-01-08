@@ -50,8 +50,8 @@ SyntaxError: not a chance
 - Reverse a list
 
   ```python
-  list[::-1] # Using string slicing
-  list.reverse() # Using the reverse() method
+  list[::-1] # or
+  list.reverse()
   ```
 
 - Get Python version

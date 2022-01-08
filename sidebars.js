@@ -50,6 +50,7 @@ module.exports = {
       items: [
         'recreational-mathematics/speedcubing',
         'recreational-mathematics/mathemagics',
+        'recreational-mathematics/mathematical-constants',
         'recreational-mathematics/mnemonics',
       ],
     },
@@ -92,4 +93,4 @@ module.exports = {
       items: ['books/python-tricks/introduction', 'books/python-tricks/notes'],
     },
   ],
-}
+};

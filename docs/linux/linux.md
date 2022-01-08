@@ -269,6 +269,8 @@ $ ls | xargs du -sk 2> /dev/null
 - `tree`: List contents of directories in a tree-like format.
 - `xev`: Print contents of X events.
 - `yes`: Output a string repeatedly until killed.
+- `split`: Split a file into pieces.
+- `csplit`: Split a file into sections determined by context lines.
 
 ### `tr`
 

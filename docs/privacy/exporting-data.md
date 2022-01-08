@@ -3,17 +3,10 @@ id: exporting-data
 title: Exporting data
 ---
 
-## IMDb
-
-Log in > **Your ratings** > **Overflow menu** > **Export**
-
 ## Google
 
-[Google Takeout](https://takeout.google.com/)
-
-### YouTube
-
-[YouTube subscription manager](https://youtube.com/subscription_manager): Export YouTube subscriptions to OPML. `deprecated`
+- [Google Takeout](https://takeout.google.com/)
+- [YouTube subscription manager](https://youtube.com/subscription_manager): Export YouTube subscriptions to OPML. `deprecated`
 
 ## Reddit
 
@@ -22,18 +15,34 @@ Log in > **Your ratings** > **Overflow menu** > **Export**
 
 ## Spotify
 
-[Exportify](https://watsonbox.github.io/exportify/)
+- [Exportify](https://watsonbox.github.io/exportify/)
+- **Account overview** > **Privacy settings** > **Download your data**
+
+## GitHub
+
+[Account settings](https://github.com/settings/admin) > **Export account data** > **Start export**
+
+## Twitter
+
+[Download an archive of your data](https://twitter.com/settings/download_your_data)
 
 ## Pocket
 
-- [Pocket Export](https://getpocket.com/export)
-- [Pocket Delete Data](https://getpocket.com/privacy_clear/)
+- [Export reading list](https://getpocket.com/export)
+- [Delete reading list](https://getpocket.com/privacy_clear/)
+
+## IMDb
+
+[Your ratings](https://imdb.com/list/ratings) > **Overflow menu** > **Export**
+
+## Netflix
+
+[Account](https://www.netflix.com/YourAccount) > **Profile & Parental Controls** > **Viewing activity** > **Download all**
+
+## Discord
+
+**User Settings** > **Privacy and Safety** > **Request all of my Data**
 
 ## Facebook
 
 [Download Facebook Information](https://www.facebook.com/dyi/)
-
-## Netflix
-
-- Go to [netflix.com/YourAccount](https://www.netflix.com/YourAccount).
-- **Profile & Parental Controls** > **Viewing activity** > **Download all**
