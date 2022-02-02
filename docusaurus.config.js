@@ -2,13 +2,13 @@ const math = require('remark-math');
 const katex = require('rehype-katex');
 
 module.exports = {
-  title: '[rsapkf/73]',
+  title: '[notes/thoughts]',
   titleDelimiter: '::',
-  tagline: "@rsapkf's notes.",
-  url: 'https://rsapkf-notes.netlify.app',
+  tagline: "@uvacoder notes.",
+  url: 'https://rsapkf-notes.vercel.app',
   baseUrl: '/',
   favicon: 'img/favicon.svg',
-  organizationName: 'rsapkf',
+  organizationName: 'uvacoder',
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',
@@ -16,7 +16,7 @@ module.exports = {
     hideableSidebar: true,
     navbar: {
       style: 'dark',
-      title: '[rsapkf/73]',
+      title: '[notes/thoughts]',
       hideOnScroll: true,
       logo: {
         alt: 'Logo',
@@ -65,7 +65,7 @@ module.exports = {
           ],
         },
         {
-          href: 'https://github.com/rsapkf/73/',
+          href: 'https://github.com/uvacoder/rsapkf-notes/',
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
